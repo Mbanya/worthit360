@@ -11,7 +11,7 @@
 
     <!-- Basic Page Needs -->
     <meta charset="utf-8">
-    <title>Be</title>
+    <title>WorthIT 360</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -20,7 +20,19 @@
 
     <!-- Favicons -->
     <link rel="shortcut icon" href="content/webdesign/images/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/developer-icon-152-279030.png">
 
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/developer-icon-144-279030.png">
+
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/developer-icon-120-279030.png">
+
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/developer-icon-114-279030.png">
+
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/developer-icon-72-279030.png">
+
+    <link rel="apple-touch-icon-precomposed" href="/developer-icon-57-279030.png">
+
+    <link rel="icon" href="/developer-icon-32-279030.png" sizes="32x32">
     <!-- FONTS -->
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,400italic,700'>
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400,400italic,500,600,700'>
@@ -62,7 +74,7 @@
                             <a href="index_webdesign.blade.php">Home</a>
                         </li>
                         <li>
-                            <a href="content/webdesign/about.html">About BeWebdesign</a>
+                            <a href="content/webdesign/about.html">About Be Web-design</a>
                         </li>
                         <li>
                             <a href="content/webdesign/what-we-offer.html">What we offer</a>
@@ -111,7 +123,7 @@
                     <div id="rev_slider_1_2" class="rev_slider fullscreenbanner" data-version="5.0.4.1">
                         <ul>
                             <li data-index="rs-1" data-transition="fade" data-slotamount="7" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Slide" data-description="">
-                                <img src="content/webdesign/images/home_webdesign_slide1_bg.jpg" alt="" width="1920" height="1200" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                                <img src="content/webdesign/images/emile-perron-190221.jpg" alt="" width="1920" height="1200" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                                 <div class="tp-caption tp-resizeme" id="slide-1-layer-1" data-x="right" data-hoffset="-50" data-y="-50" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:2000;y:0;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="300" data-responsive_offset="on" style="z-index: 5; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide1_cover2.png" alt="" width="335" height="402" data-no-retina>
                                 </div>
                                 <div class="tp-caption tp-resizeme" id="slide-1-layer-2" data-x="-10" data-y="-10" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:-2000;y:0;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1300;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="500" data-responsive_offset="on" style="z-index: 6; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide1_cover.png" alt="" width="1719" height="1600" data-no-retina>
@@ -137,7 +149,7 @@
                                 </div>
                             </li>
                             <li data-index="rs-2" data-transition="fade" data-slotamount="7" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Slide" data-description="">
-                                <img src="content/webdesign/images/home_webdesign_slide3_bg.jpg" alt="" width="1920" height="1200" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                                <img src="content/webdesign/images/luca-bravo-204056.jpg" alt="" width="1920" height="1200" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                                 <div class="tp-caption tp-resizeme" id="slide-2-layer-1" data-x="right" data-hoffset="-50" data-y="-50" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:2000;y:0;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="300" data-responsive_offset="on" style="z-index: 5; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide3_cover2.png" alt="" width="335" height="402" data-no-retina>
                                 </div>
                                 <div class="tp-caption tp-resizeme" id="slide-2-layer-2" data-x="-10" data-y="-10" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:-2000;y:0;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1300;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="500" data-responsive_offset="on" style="z-index: 6; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide3_cover.png" alt="" width="1719" height="1600" data-no-retina>
@@ -162,41 +174,15 @@
                                     <a class="button button_stroke_custom button_js" href="#" style=" border-color:#fff !important; color:#fff;"><span class="button_label">See the project</span></a>
                                 </div>
                             </li>
-                            <li data-index="rs-3" data-transition="fade" data-slotamount="7" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Slide" data-description="">
-                                <img src="content/webdesign/images/home_webdesign_slide4_bg.jpg" alt="" width="1920" height="1200" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                                <div class="tp-caption tp-resizeme" id="slide-3-layer-1" data-x="right" data-hoffset="-50" data-y="-50" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:2000;y:0;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="300" data-responsive_offset="on" style="z-index: 5; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide4_cover2.png" alt="" width="335" height="402" data-no-retina>
-                                </div>
-                                <div class="tp-caption tp-resizeme" id="slide-3-layer-2" data-x="-10" data-y="-10" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:-2000;y:0;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1300;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="500" data-responsive_offset="on" style="z-index: 6; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide4_cover.png" alt="" width="1719" height="1600" data-no-retina>
-                                </div>
-                                <div class="tp-caption tp-resizeme" id="slide-3-layer-3" data-x="-300" data-y="-10" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:-2000;y:0;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1300;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="800" data-responsive_offset="on" style="z-index: 7; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide4_cover.png" alt="" width="1719" height="1600" data-no-retina>
-                                </div>
-                                <div class="tp-caption tp-resizeme" id="slide-3-layer-4" data-x="140" data-y="center" data-voffset="-90" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="y:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1400" data-responsive_offset="on" style="z-index: 8; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide3.png" alt="" width="101" height="72" data-no-retina>
-                                </div>
-                                <div class="tp-caption mfnrswebdesignlargelight tp-resizeme" id="slide-3-layer-5" data-x="140" data-y="center" data-voffset="10" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 9; min-width: auto; min-height: auto; white-space: nowrap; max-width: auto; max-height: auto; font-size: 46px; line-height: 46px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family:Alegreya sans, sans-serif;padding:0 0 0 0;border-color:rgba(0, 0, 0, 1.00);border-radius:0 0 0 0;">
-                                    NICESHOP.COM
-                                </div>
-                                <div class="tp-caption tp-resizeme" id="slide-3-layer-6" data-x="140" data-y="center" data-voffset="70" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1700" data-responsive_offset="on" style="z-index: 10; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slider_sep.png" alt="" width="83" height="3" data-no-retina>
-                                </div>
-                                <div class="tp-caption mfnrswebdesignsmalllight tp-resizeme" id="slide-3-layer-7" data-x="140" data-y="center" data-voffset="169" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1900" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 11; min-width: auto; min-height: auto; white-space: nowrap; max-width: auto; max-height: auto; font-size: 16px; line-height: 23px; font-weight: 300; color: rgba(255, 255, 255, 1.00);font-family:Alegreya sans, sans-serif;padding:0 0 0 0;border-color:rgba(0, 0, 0, 1.00);border-radius:0 0 0 0;">
-                                    Per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis
-                                    <br> dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut
-                                    <br> imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra,
-                                    <br> erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam
-                                    <br> massa nisl quis neque. Suspendisse in orci enim.
-                                </div>
-                                <div class="tp-caption tp-resizeme" id="slide-3-layer-8" data-x="140" data-y="center" data-voffset="310" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="2100" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 12; min-width: auto; min-height: auto; white-space: nowrap; max-width: auto; max-height: auto; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255, 255, 255, 1.00);padding:0 0 0 0;border-radius:0 0 0 0;">
-                                    <a class="button button_stroke_custom button_js" href="#" style=" border-color:#fff !important; color:#fff;"><span class="button_label">See the project</span></a>
-                                </div>
-                            </li>
                             <li data-index="rs-4" data-transition="fade" data-slotamount="7" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Slide" data-description="">
-                                <img src="content/webdesign/images/home_webdesign_slide2_bg.jpg" alt="" width="1920" height="1200" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                                <img src="content/webdesign/images/randall-bruder-136626.jpg" alt="" width="1920" height="1200" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                                 <div class="tp-caption tp-resizeme" id="slide-4-layer-1" data-x="right" data-hoffset="-50" data-y="-50" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:2000;y:0;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="300" data-responsive_offset="on" style="z-index: 5; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide2_cover2.png" alt="" width="335" height="402" data-no-retina>
                                 </div>
                                 <div class="tp-caption tp-resizeme" id="slide-4-layer-2" data-x="-10" data-y="-10" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:-2000;y:0;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1300;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="500" data-responsive_offset="on" style="z-index: 6; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide2_cover.png" alt="" width="1719" height="1600" data-no-retina>
                                 </div>
                                 <div class="tp-caption tp-resizeme" id="slide-4-layer-3" data-x="-300" data-y="-10" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:-2000;y:0;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1300;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="800" data-responsive_offset="on" style="z-index: 7; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide2_cover.png" alt="" width="1719" height="1600" data-no-retina>
                                 </div>
-                                <div class="tp-caption tp-resizeme" id="slide-4-layer-4" data-x="140" data-y="center" data-voffset="-90" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="y:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1400" data-responsive_offset="on" style="z-index: 8; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide4_num.png" alt="" width="111" height="72" data-no-retina>
+                                <div class="tp-caption tp-resizeme" id="slide-4-layer-4" data-x="140" data-y="center" data-voffset="-90" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="y:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1400" data-responsive_offset="on" style="z-index: 8; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide3.png" alt="" width="111" height="72" data-no-retina>
                                 </div>
                                 <div class="tp-caption mfnrswebdesignlargelight tp-resizeme" id="slide-4-layer-5" data-x="140" data-y="center" data-voffset="10" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 9; min-width: auto; min-height: auto; white-space: nowrap; max-width: auto; max-height: auto; font-size: 46px; line-height: 46px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family:Alegreya sans, sans-serif;padding:0 0 0 0;border-color:rgba(0, 0, 0, 1.00);border-radius:0 0 0 0;">
                                     KERRIS CREATION
@@ -235,7 +221,7 @@
                     <aside class="widget widget_text">
                         <div class="textwidget">
                             <div class="image_frame no_link scale-with-grid alignnone no_border">
-                                <div class="image_wrapper"><img class="scale-with-grid" src="content/webdesign/images/home_webdesign_footer_logo.png" alt="">
+                                <div class="image_wrapper"><img class="scale-with-grid" src="content/webdesign/images/" alt="WorthIT 360">
                                 </div>
                             </div>
                         </div>
@@ -260,24 +246,24 @@
                 <div class="column one">
                     <a id="back_to_top" href="#" class="button button_left button_js"><span class="button_icon"><i class="icon-up-open-big"></i></span></a>
                     <div class="copyright">
-                        &copy; 2017 BeWebDesign - BeTheme. Muffin group - HTML by <a target="_blank" rel="nofollow" href="http://bit.ly/1M6lijQ">BeantownThemes</a>
+                        &copy; 2017 WorthAfrica LLP
                     </div>
                     <nav id="social-menu">
                         <ul id="menu-main-menu-1" class="social-menu">
                             <li>
-                                <a href="index_webdesign.blade.php">Home</a>
+                                <a href="">Home</a>
                             </li>
                             <li>
-                                <a href="content/webdesign/about.html">About BeWebdesign</a>
+                                <a href="}">About BeWebdesign</a>
                             </li>
                             <li>
-                                <a href="content/webdesign/what-we-offer.html">What we offer</a>
+                                <a href="">What we offer</a>
                             </li>
                             <li>
-                                <a href="content/webdesign/realisations.html">Realisations</a>
+                                <a href="">Projects</a>
                             </li>
                             <li>
-                                <a href="content/webdesign/contact-us.html">Contact us</a>
+                                <a href="">Contact us</a>
                             </li>
                         </ul>
                     </nav>
