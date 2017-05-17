@@ -110,7 +110,7 @@
                                                 </div>
                                             </div>
                                             <hr class="no_line hrmargin_b_25" />
-                                            <h4>Software installation</h4>
+                                            <h4>Software Development</h4>
                                             <p style="color: #A2A2A2;">
                                             </p>
                                         </div>
@@ -140,7 +140,7 @@
                                                 </div>
                                             </div>
                                             <hr class="no_line hrmargin_b_25" />
-                                            <h4>IT Outsourcing</h4>
+                                            <h4>Software Installation</h4>
                                             <p style="color: #A2A2A2;">
 
                                             </p>
@@ -156,7 +156,7 @@
                                                 </div>
                                             </div>
                                             <hr class="no_line hrmargin_b_25" />
-                                            <h4>Consulting</h4>
+                                            <h4>Website Devlopment</h4>
                                             <p style="color: #A2A2A2;">
                                             </p>
                                         </div>
