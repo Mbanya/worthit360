@@ -9,7 +9,7 @@
 }
 }
 body:not(.template-slider) #Header_wrapper {
-    background-image: url(../images/home_webdesign_subheader_2.jpg);
+    background-image: url(../images/);
     background-repeat: no-repeat;
     background-position: center top;
 }
@@ -202,7 +202,7 @@ a.mfn-link-6:before {
 /************************ Header ************************/
 
 #Header .top_bar_left, .header-classic #Top_bar, .header-stack #Top_bar, .header-split #Top_bar, .header-fixed #Top_bar, .header-below #Top_bar, #Header_creative, #Top_bar #menu {
-	background-color: #000;
+	background-color: white;
 }
 #Top_bar .top_bar_right:before {
 	background-color: #e3e3e3;
@@ -1057,7 +1057,7 @@ table tr:hover td {
 	display: block;
 	height: 180px;
 	background-color: rgba(255, 255, 255, .5);
-	background-image: url("../images/photo.png");
+	background-image: url("../images/");
 	background-position: center center;
 	background-repeat: no-repeat;
 }
@@ -2853,7 +2853,7 @@ ul.tribe-events-sub-nav a, .tribe-events-back a {
 	height: 100%;
 	width: 100%;
 	z-index: 3;
-	background: url(../images/videomask.png) repeat center;
+	background: url(../images/) repeat center;
 }
 .section.has-video .section_video video {
 	position: absolute;

@@ -98,7 +98,7 @@
                                             </div>
                                         </div>
                                         <hr class="no_line hrmargin_b_30" />
-                                        <h2>See what we can do with your device!</h2>
+                                        <h2>See what we can do for your business!</h2>
                                     </div>
                                 </div>
                                 <!-- One Fourth (1/4) Column -->
@@ -112,6 +112,10 @@
                                             <hr class="no_line hrmargin_b_25" />
                                             <h4>Software Development</h4>
                                             <p style="color: #A2A2A2;">
+                                                Our services focus on helping clients to solve complex business
+                                                issues through implementing effective technology to improve enterprise performance.
+                                                Our experience is extensive - from strategy, through design, implementation,
+                                                managed services, and upgrades.
                                             </p>
                                         </div>
                                     </div>
@@ -127,6 +131,9 @@
                                             <hr class="no_line hrmargin_b_25" />
                                             <h4>IT Technical Services</h4>
                                             <p style="color: #A2A2A2;">
+                                                The goal of our IT Technical Services team is to remove stress and disruption
+                                                from the project. And we recognize that your business is unique, so it only makes sense
+                                                that your technology implementation is uniquely tailored to your business.
                                             </p>
                                         </div>
                                     </div>
@@ -142,6 +149,9 @@
                                             <hr class="no_line hrmargin_b_25" />
                                             <h4>Software Installation</h4>
                                             <p style="color: #A2A2A2;">
+                                                We help you find the best hardware and software solutions for your business
+                                                whereby we work with you to evaluate your current systems to make sure we can get<br>
+                                                the best value out of your existing investments.
 
                                             </p>
                                         </div>
@@ -158,6 +168,12 @@
                                             <hr class="no_line hrmargin_b_25" />
                                             <h4>Website Devlopment</h4>
                                             <p style="color: #A2A2A2;">
+                                                Website Development is the use of
+                                                Art and technical knowledge to meet specific
+                                                requirements.<br>
+                                                We use superior web technologies to build the
+                                                solution aimed at providing an enabling digital
+                                                platform to grow your business.
                                             </p>
                                         </div>
                                     </div>
@@ -176,96 +192,33 @@
                                             </div>
                                         </div>
                                         <hr class="no_line hrmargin_b_30" />
-                                        <h2 style="margin: 0 7%; line-height: 120%;">Lorem quis bibendum auctor, nisi elit consequat ipsum sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan.</h2>
+                                        <h2 style="margin: 0 7%; line-height: 120%; font-style: italic;">Never before in history has innovation offered promise of so much to so many in so short a time</h2>
                                         <hr class="no_line hrmargin_b_30" />
-                                        <h4 style="color: #218136; font-weight: 700;">- Mark Jefferson</h4>
+                                        <h4 style="color: #218136; font-weight: 700;">- Bill Gates</h4>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="section" style="padding-top:100px; padding-bottom:80px; background-image:url(content/webdesign/images/home_webdesign_about_bg.jpg); background-repeat:no-repeat; background-position:center bottom; ">
+                    <div class="section" style="padding-top:100px; padding-bottom:80px; background-image:url(content/webdesign/images/home_webdesign_about_bg-min.jpg); background-repeat:no-repeat; background-position:center bottom; ">
                         <div class="section_wrapper clearfix">
                             <div class="items_group clearfix">
                                 <!-- One Second (1/2) Column -->
                                 <div class="column one-second column_column ">
                                     <div class="column_attr ">
-                                        <h2>We focus on attracting
+                                        <h2>We focus on supporting
                                             <br>
-                                            the users to <strong>the content</strong>
+                                            our clients to <strong> integrate technology</strong>
                                             <br>
-                                            they're looking for</h2>
+                                            into their business</h2>
                                         <hr class="no_line hrmargin_b_40" />
-                                        <h5>Per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentu</h5>
+                                        <h5>We focus on providing IT services that will allow your business to breathe with the
+                                            <br>relief in knowing that a trusted IT service provider is on your side.
+                                            <br>Our goal is to ensure that your business never fall short of effective IT services
+                                            <br>that will allow your system to stay current and up-to-date with all of the advanced technologies of today’s world</h5>
                                         <hr class="no_line hrmargin_b_40" />
-                                        <h5>Sed ut imperdiet nisi. Proin condimentu</h5>
+                                        <h5>WORTHIT360 is always on the cutting edge with new programming and software</h5>
                                         <hr class="no_line hrmargin_b_40" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="section" id="device" style="padding-top:80px; padding-bottom:30px; background-color:#f8f8f8">
-                        <div class="section_wrapper clearfix">
-                            <div class="items_group clearfix">
-                                <!-- One full width row-->
-                                <div class="column one column_column">
-                                    <div class="column_attr align_center">
-                                        <h2>Send us a message regarding your project! <span style="color: #a3a3a3;">*</span></h2>
-                                        <hr class="no_line hrmargin_b_20" />
-                                        <h5 style="color: #a9a9a9;">* Nulla imperdiet sit amet magna vestibulum dapibus, mauris nec malesuada fames</h5>
-                                    </div>
-                                </div>
-                                <!-- One Third (1/3) Column -->
-                                <div class="column one-third column_column">
-                                    <div class="column_attr animate" data-anim-type="fadeInUp">
-                                        <h4>About us</h4>
-                                        <p class="big">
-                                            Our WORTH-IT services focus on helping clients to solve complex business issues through implementing effective technology to improve enterprise performance. Our experience is extensive - from strategy, through design, implementation, managed services, and upgrades.                                         </p>
-                                        <p class="big" style="color: #858585;">
-                                            Bringing deep IT, digital, data strategy and project management experience, our technology strategy & management consultants can help you leverage on emerging technologies to develop new technology-enabled approaches, models and roadmaps that support effective decision-making, drive innovation and create a sustainable competitive advantage in your business.                                         </p>
-                                    </div>
-                                </div>
-                                <!-- One Third (1/3) Column -->
-                                <div class="column one-third column_column">
-                                    <div class="column_attr animate" data-anim-type="fadeInUp">
-                                        <h4>What we Do</h4>
-                                        <p class="big">
-                                            We help organizations become top market performers, distinguishing themselves from their competitors, by identifying technology systems and processes that create opportunities for our clients to strategically and operationally execute effective actions in real time.                                        </p>
-                                        <p class="big" style="color: #858585;">
-                                            What we want for all of our customers is 99.9% uptime. And the only way we can guarantee that is by providing you with a Total Care experience — that is, premiere IT outsourcing services around the clock.                                        </p>
-                                    </div>
-                                </div>
-                                <!-- One Third (1/3) Column -->
-                                <div class="column one-third column_column">
-                                    <div class="column_attr animate" data-anim-type="fadeInUp">
-                                        <h4>Send us a message</h4>
-                                        <div class="wpcf7" id="wpcf7-f31-p2-o1" lang="en-US" dir="ltr">
-                                            <div class="screen-reader-response"></div>
-
-                                            <div id="contactWrapper">
-                                                <form id="contactform" action="" method="POST">
-                                                    <div class="column one" style="margin-bottom: 2px;">
-                                                        <input placeholder="Your name" type="text" name="name" id="name" size="40" aria-required="true" aria-invalid="false" />
-                                                    </div>
-                                                    <div class="column one" style="margin-bottom: 2px;">
-                                                        <input placeholder="Your e-mail" type="email" name="email" id="email" size="40" aria-required="true" aria-invalid="false" />
-                                                    </div>
-                                                    <div class="column one" style="margin-bottom: 2px;">
-                                                        <textarea placeholder="Message" name="body" id="body" style="width:100%;" rows="10" aria-invalid="false"></textarea>
-                                                    </div>
-                                                    <div class="column one" style="margin-bottom: 0px;">
-                                                        <input type="button" value="Hire us" id="submit" onClick="return check_values();">
-                                                    </div>
-                                                </form>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- One full width row-->
-                                <div class="column one column_column">
-                                    <div class="column_attr align_center animate" data-anim-type="bounceIn">
-                                        <a href="#" class="icon_bar icon_bar_facebook"><span class="t"><i class="icon-facebook"></i></span><span class="b"><i class="icon-facebook"></i></span></a><a href="#" class="icon_bar icon_bar_google"><span class="t"><i class="icon-gplus"></i></span><span class="b"><i class="icon-gplus"></i></span></a><a href="#" class="icon_bar icon_bar_twitter"><span class="t"><i class="icon-twitter"></i></span><span class="b"><i class="icon-twitter"></i></span></a><a href="#" class="icon_bar icon_bar_vimeo"><span class="t"><i class="icon-vimeo"></i></span><span class="b"><i class="icon-vimeo"></i></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -277,7 +230,7 @@
                                 <!-- One full width row-->
                                 <div class="column one column_column">
                                     <div class="column_attr align_center">
-                                        <h2 style="display: inline-block; margin-right: 35px; position: relative; top: -26px;">Call for help now! <strong>+23 120 230 340</strong></h2><a class="button button_large button_stroke_custom button_js" href="#" style=" border-color:#fff !important; color:#fff;"><span class="button_label">Contact us</span></a>
+                                        <h2 style="display: inline-block; margin-right: 35px; position: relative; top: -26px;">Call for help now! <strong>+254 736508817</strong></h2><a class="button button_large button_stroke_custom button_js" href="#" style=" border-color:#fff !important; color:#fff;"><span class="button_label">Contact us</span></a>
                                     </div>
                                 </div>
                             </div>
@@ -288,7 +241,7 @@
             </div>
         </div>
     </div>
-    <div class="section" style="padding-top:150px; padding-bottom:110px; background-image:url(content/webdesign/images/wesson-wang-110739.jpg); background-repeat:no-repeat; background-position:center top; background-attachment:fixed; background-size:cover; -webkit-background-size:cover" data-stellar-background-ratio="0.5">
+    <div class="section" style="padding-top:150px; padding-bottom:110px; background-image:url(content/webdesign/images/wesson-wang-110739-min.jpg); background-repeat:no-repeat; background-position:center top; background-attachment:fixed; background-size:cover; -webkit-background-size:cover" data-stellar-background-ratio="0.5">
         <div class="section_wrapper clearfix">
             <div class="items_group clearfix">
                 <!-- One Third (1/3) Column -->

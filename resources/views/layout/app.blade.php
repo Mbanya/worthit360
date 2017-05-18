@@ -49,81 +49,17 @@
 @yield('assets')
 </head>
 
-<body class="template-slider layout-full-width button-stroke no-content-padding header-overlay header-transparent minimalist-header sticky-header sticky-white subheader-title-left hide-title-area">
+<body class="template-slider color-one layout-full-width header-below subheader-transparent sticky-header sticky-white subheader-title-left">
 <!-- Main Theme Wrapper -->
 <div id="Wrapper">
-    <!-- Header Wrapper -->
-    <div id="Header_wrapper">
-        <!-- Header -->
-        <header id="Header">
-            <!-- Header Top -  Info Area -->
-            <div id="Action_bar">
-                <div class="container">
-                    <div class="column one">
-                        <!-- Header - contact info area-->
-                        <ul class="contact_details"></ul>
-                        <!--Social info area-->
-                        <ul class="social"></ul>
-                    </div>
-                </div>
-            </div>
-            <div id="Overlay">
-                <nav id="overlay-menu">
-                    <ul id="menu-main-menu" class="overlay-menu">
-                        <li class="current_page_item">
-                            <a href="index_webdesign.blade.php">Home</a>
-                        </li>
-                        <li>
-                            <a href="content/webdesign/about.html">About Be Web-design</a>
-                        </li>
-                        <li>
-                            <a href="content/webdesign/what-we-offer.html">What we offer</a>
-                        </li>
-                        <li>
-                            <a href="content/webdesign/realisations.html">Realisations</a>
-                        </li>
-                        <li>
-                            <a href="content/webdesign/contact-us.html">Contact us</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div><a class="overlay-menu-toggle" href="#"><i class="open icon-menu"></i><i class="close icon-cancel"></i></a>
-            <!-- Header -  Logo and Menu area -->
-            <div id="Top_bar">
-                <div class="container">
-                    <div class="column one">
-                        <div class="top_bar_left clearfix">
-                            <!-- Logo-->
-                            <div class="logo">
-                                <a id="logo" href="index_webdesign.blade.php" title="BeWebDesign - BeTheme"><img class="logo-main scale-with-grid" src="content/webdesign/images/webdesign.png" alt="BeWebDesign - BeTheme" /><img class="logo-sticky scale-with-grid" src="content/webdesign/images/webdesign.png" alt="">
-                                </a>
-                            </div>
-                            <!-- Main menu-->
-                            <div class="menu_wrapper"></div>
-                            <!-- Header Searchform area-->
-                            <div class="search_wrapper">
-                                <form method="get" action="#">
-                                    <i class="icon_search icon-search"></i><a href="#" class="icon_close"><i class="icon-cancel"></i></a>
-                                    <input type="text" class="field" name="s" placeholder="Enter your search" />
-                                    <input type="submit" class="submit flv_disp_none" value="" />
-                                </form>
-                            </div>
-                        </div>
-                        <div class="top_bar_right">
-                            <div class="top_bar_right_wrapper">
-                                <a id="search_button" href="#"><i class="icon-search"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
             <!-- Revolution slider area-->
             <div class="mfn-main-slider">
                 <div id="rev_slider_1_2_wrapper" class="rev_slider_wrapper fullscreen-container" style="padding:0px;">
                     <div id="rev_slider_1_2" class="rev_slider fullscreenbanner" data-version="5.0.4.1">
                         <ul>
                             <li data-index="rs-1" data-transition="fade" data-slotamount="7" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Slide" data-description="">
-                                <img src="content/webdesign/images/emile-perron-190221.jpg" alt="" width="1920" height="1200" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                                <img src="content/webdesign/images/luca-bravo-204056-min.jpg" alt="" width="1920" height="1200" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                                 <div class="tp-caption tp-resizeme" id="slide-1-layer-1" data-x="right" data-hoffset="-50" data-y="-50" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:2000;y:0;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="300" data-responsive_offset="on" style="z-index: 5; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide1_cover2.png" alt="" width="335" height="402" data-no-retina>
                                 </div>
                                 <div class="tp-caption tp-resizeme" id="slide-1-layer-2" data-x="-10" data-y="-10" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:-2000;y:0;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1300;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="500" data-responsive_offset="on" style="z-index: 6; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide1_cover.png" alt="" width="1719" height="1600" data-no-retina>
@@ -133,23 +69,23 @@
                                 <div class="tp-caption tp-resizeme" id="slide-1-layer-4" data-x="140" data-y="center" data-voffset="-90" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="y:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1400" data-responsive_offset="on" style="z-index: 8; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide1_num.png" alt="" width="82" height="73" data-no-retina>
                                 </div>
                                 <div class="tp-caption mfnrswebdesignlargelight tp-resizeme" id="slide-1-layer-5" data-x="140" data-y="center" data-voffset="10" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 9; min-width: auto; min-height: auto; white-space: nowrap; max-width: auto; max-height: auto; font-size: 46px; line-height: 46px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family:Alegreya sans, sans-serif;padding:0 0 0 0;border-color:rgba(0, 0, 0, 1.00);border-radius:0 0 0 0;">
-                                    CHARLIE ltd
+                                    1.	JOBFILTER
                                 </div>
                                 <div class="tp-caption tp-resizeme" id="slide-1-layer-6" data-x="140" data-y="center" data-voffset="70" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1700" data-responsive_offset="on" style="z-index: 10; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slider_sep.png" alt="" width="83" height="3" data-no-retina>
                                 </div>
                                 <div class="tp-caption mfnrswebdesignsmalllight tp-resizeme" id="slide-1-layer-7" data-x="140" data-y="center" data-voffset="169" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1900" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 11; min-width: auto; min-height: auto; white-space: nowrap; max-width: auto; max-height: auto; font-size: 16px; line-height: 23px; font-weight: 300; color: rgba(255, 255, 255, 1.00);font-family:Alegreya sans, sans-serif;padding:0 0 0 0;border-color:rgba(0, 0, 0, 1.00);border-radius:0 0 0 0;">
-                                    Per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis
-                                    <br> dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut
-                                    <br> imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra,
-                                    <br> erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam
-                                    <br> massa nisl quis neque. Suspendisse in orci enim.
+                                    JOBS FILTER is an innovative software application that guarantees 80% savings
+                                    <br>of what it traditionally costs HR teams to filter hundreds and thousands of
+                                    <br>job applications received when you advertise for a job. JOBFILTER app utilizes
+                                    <br>some of the most advanced technology thought-process to revolutionize the
+                                    <br>efficiency in identifying the best talent in the jobs industry.
                                 </div>
                                 <div class="tp-caption tp-resizeme" id="slide-1-layer-8" data-x="140" data-y="center" data-voffset="310" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="2100" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 12; min-width: auto; min-height: auto; white-space: nowrap; max-width: auto; max-height: auto; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255, 255, 255, 1.00);padding:0 0 0 0;border-radius:0 0 0 0;">
-                                    <a class="button button_stroke_custom button_js" href="#" style=" border-color:#fff !important; color:#fff;"><span class="button_label">See the project</span></a>
+                                    <a class="button button_stroke_custom button_js" href="#" style=" border-color:#000 !important; "><span class="button_label">See the project</span></a>
                                 </div>
                             </li>
                             <li data-index="rs-2" data-transition="fade" data-slotamount="7" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Slide" data-description="">
-                                <img src="content/webdesign/images/luca-bravo-204056.jpg" alt="" width="1920" height="1200" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                                <img src="content/webdesign/images/bigdata-1423786_1920-min.jpg" alt="" width="1920" height="1200" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                                 <div class="tp-caption tp-resizeme" id="slide-2-layer-1" data-x="right" data-hoffset="-50" data-y="-50" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:2000;y:0;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="300" data-responsive_offset="on" style="z-index: 5; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide3_cover2.png" alt="" width="335" height="402" data-no-retina>
                                 </div>
                                 <div class="tp-caption tp-resizeme" id="slide-2-layer-2" data-x="-10" data-y="-10" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:-2000;y:0;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1300;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="500" data-responsive_offset="on" style="z-index: 6; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide3_cover.png" alt="" width="1719" height="1600" data-no-retina>
@@ -159,23 +95,23 @@
                                 <div class="tp-caption tp-resizeme" id="slide-2-layer-4" data-x="140" data-y="center" data-voffset="-90" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="y:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1400" data-responsive_offset="on" style="z-index: 8; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide2_num.png" alt="" width="114" height="72" data-no-retina>
                                 </div>
                                 <div class="tp-caption mfnrswebdesignlargelight tp-resizeme" id="slide-2-layer-5" data-x="140" data-y="center" data-voffset="10" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 9; min-width: auto; min-height: auto; white-space: nowrap; max-width: auto; max-height: auto; font-size: 46px; line-height: 46px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family:Alegreya sans, sans-serif;padding:0 0 0 0;border-color:rgba(0, 0, 0, 1.00);border-radius:0 0 0 0;">
-                                    BE THEME BRAND
+                                    2.	INDEX
                                 </div>
                                 <div class="tp-caption tp-resizeme" id="slide-2-layer-6" data-x="140" data-y="center" data-voffset="70" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1700" data-responsive_offset="on" style="z-index: 10; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slider_sep.png" alt="" width="83" height="3" data-no-retina>
                                 </div>
                                 <div class="tp-caption mfnrswebdesignsmalllight tp-resizeme" id="slide-2-layer-7" data-x="140" data-y="center" data-voffset="169" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1900" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 11; min-width: auto; min-height: auto; white-space: nowrap; max-width: auto; max-height: auto; font-size: 16px; line-height: 23px; font-weight: 300; color: rgba(255, 255, 255, 1.00);font-family:Alegreya sans, sans-serif;padding:0 0 0 0;border-color:rgba(0, 0, 0, 1.00);border-radius:0 0 0 0;">
-                                    Per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis
-                                    <br> dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut
-                                    <br> imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra,
-                                    <br> erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam
-                                    <br> massa nisl quis neque. Suspendisse in orci enim.
+                                    INDEX is an innovative software application that applies tried and proven best
+                                    <br> practices in the industry and adaptive technologies to ensure project results are
+                                    <br> tracked and delivered on time and within budget. INDEX app utilizes some of the most
+                                    <br> advanced technology thought-process to revolutionize the efficiency in tracking the
+                                    <br> benchmarking of projects and industry performance.
                                 </div>
                                 <div class="tp-caption tp-resizeme" id="slide-2-layer-8" data-x="140" data-y="center" data-voffset="310" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="2100" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 12; min-width: auto; min-height: auto; white-space: nowrap; max-width: auto; max-height: auto; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255, 255, 255, 1.00);padding:0 0 0 0;border-radius:0 0 0 0;">
-                                    <a class="button button_stroke_custom button_js" href="#" style=" border-color:#fff !important; color:#fff;"><span class="button_label">See the project</span></a>
+                                    <a class="button button_stroke_custom button_js" href="#" style=" border-color:#000 !important; "><span class="button_label">See the project</span></a>
                                 </div>
                             </li>
-                            <li data-index="rs-4" data-transition="fade" data-slotamount="7" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Slide" data-description="">
-                                <img src="content/webdesign/images/randall-bruder-136626.jpg" alt="" width="1920" height="1200" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                            <li data-index="rs-3" data-transition="fade" data-slotamount="7" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Slide" data-description="">
+                                <img src="content/webdesign/images/macbook-606763_1920-min.jpg" alt="" width="1920" height="1200" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                                 <div class="tp-caption tp-resizeme" id="slide-4-layer-1" data-x="right" data-hoffset="-50" data-y="-50" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:2000;y:0;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="300" data-responsive_offset="on" style="z-index: 5; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide2_cover2.png" alt="" width="335" height="402" data-no-retina>
                                 </div>
                                 <div class="tp-caption tp-resizeme" id="slide-4-layer-2" data-x="-10" data-y="-10" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:-2000;y:0;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1300;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="500" data-responsive_offset="on" style="z-index: 6; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide2_cover.png" alt="" width="1719" height="1600" data-no-retina>
@@ -185,27 +121,120 @@
                                 <div class="tp-caption tp-resizeme" id="slide-4-layer-4" data-x="140" data-y="center" data-voffset="-90" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="y:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1400" data-responsive_offset="on" style="z-index: 8; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide3.png" alt="" width="111" height="72" data-no-retina>
                                 </div>
                                 <div class="tp-caption mfnrswebdesignlargelight tp-resizeme" id="slide-4-layer-5" data-x="140" data-y="center" data-voffset="10" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 9; min-width: auto; min-height: auto; white-space: nowrap; max-width: auto; max-height: auto; font-size: 46px; line-height: 46px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family:Alegreya sans, sans-serif;padding:0 0 0 0;border-color:rgba(0, 0, 0, 1.00);border-radius:0 0 0 0;">
-                                    KERRIS CREATION
+                                    3.	NOBELL
                                 </div>
                                 <div class="tp-caption tp-resizeme" id="slide-4-layer-6" data-x="140" data-y="center" data-voffset="70" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1700" data-responsive_offset="on" style="z-index: 10; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slider_sep.png" alt="" width="83" height="3" data-no-retina>
                                 </div>
                                 <div class="tp-caption mfnrswebdesignsmalllight tp-resizeme" id="slide-4-layer-7" data-x="140" data-y="center" data-voffset="169" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1900" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 11; min-width: auto; min-height: auto; white-space: nowrap; max-width: auto; max-height: auto; font-size: 16px; line-height: 23px; font-weight: 300; color: rgba(255, 255, 255, 1.00);font-family:Alegreya sans, sans-serif;padding:0 0 0 0;border-color:rgba(0, 0, 0, 1.00);border-radius:0 0 0 0;">
-                                    Per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis
-                                    <br> dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut
-                                    <br> imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra,
-                                    <br> erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam
-                                    <br> massa nisl quis neque. Suspendisse in orci enim.
+                                    Nobell is training management platform operated by Worth Group that
+                                    <br> offers clients access to hundreds of courses, cloud storage of training
+                                    <br>content, online training assessments. NOBELL platform utilizes some of
+                                    <br>  the most advanced technology thought-process to revolutionize the efficiency
+                                    <br> marketing, delivering, and managing effectiveness of training and investments
+                                    <br>in professional development.
                                 </div>
                                 <div class="tp-caption tp-resizeme" id="slide-4-layer-8" data-x="140" data-y="center" data-voffset="310" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="2100" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 12; min-width: auto; min-height: auto; white-space: nowrap; max-width: auto; max-height: auto; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255, 255, 255, 1.00);padding:0 0 0 0;border-radius:0 0 0 0;">
-                                    <a class="button button_stroke_custom button_js" href="#" style=" border-color:#fff !important; color:#fff;"><span class="button_label">See the project</span></a>
+                                    <a class="button button_stroke_custom button_js" href="#" style=" border-color:#000 !important; "><span class="button_label">See the project</span></a>
+                                </div>
+                            </li>
+                            <li data-index="rs-4" data-transition="fade" data-slotamount="7" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Slide" data-description="">
+                                <img src="content/webdesign/images/rami-al-zayat-170349-min.jpg" alt="" width="1920" height="1200" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                                <div class="tp-caption tp-resizeme" id="slide-4-layer-1" data-x="right" data-hoffset="-50" data-y="-50" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:2000;y:0;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="300" data-responsive_offset="on" style="z-index: 5; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide1_cover2.png" alt="" width="335" height="402" data-no-retina>
+                                </div>
+                                <div class="tp-caption tp-resizeme" id="slide-4-layer-2" data-x="-10" data-y="-10" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:-2000;y:0;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1300;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="500" data-responsive_offset="on" style="z-index: 6; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide1_cover.png" alt="" width="1719" height="1600" data-no-retina>
+                                </div>
+                                <div class="tp-caption tp-resizeme" id="slide-4-layer-3" data-x="-300" data-y="-10" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:-2000;y:0;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1300;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="800" data-responsive_offset="on" style="z-index: 7; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide1_cover.png" alt="" width="1719" height="1600" data-no-retina>
+                                </div>
+                                <div class="tp-caption tp-resizeme" id="slide-4-layer-4" data-x="140" data-y="center" data-voffset="-90" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="y:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1400" data-responsive_offset="on" style="z-index: 8; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide4_num.png" alt="" width="111" height="72" data-no-retina>
+                                </div>
+                                <div class="tp-caption mfnrswebdesignlargelight tp-resizeme" id="slide-4-layer-5" data-x="140" data-y="center" data-voffset="10" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 9; min-width: auto; min-height: auto; white-space: nowrap; max-width: auto; max-height: auto; font-size: 46px; line-height: 46px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family:Alegreya sans, sans-serif;padding:0 0 0 0;border-color:rgba(0, 0, 0, 1.00);border-radius:0 0 0 0;">
+                                    A2B
+                                </div>
+                                <div class="tp-caption tp-resizeme" id="slide-4-layer-6" data-x="140" data-y="center" data-voffset="70" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1700" data-responsive_offset="on" style="z-index: 10; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slider_sep.png" alt="" width="83" height="3" data-no-retina>
+                                </div>
+                                <div class="tp-caption mfnrswebdesignsmalllight tp-resizeme" id="slide-4-layer-7" data-x="140" data-y="center" data-voffset="169" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1900" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 11; min-width: auto; min-height: auto; white-space: nowrap; max-width: auto; max-height: auto; font-size: 16px; line-height: 23px; font-weight: 300; color: rgba(255, 255, 255, 1.00);font-family:Alegreya sans, sans-serif;padding:0 0 0 0;border-color:rgba(0, 0, 0, 1.00);border-radius:0 0 0 0;">
+                                    A2B provides excelling graduates and alumni internship opportunities that
+                                    <br>guarantee on-job learning and strengthens their career dreams. A2B utilizes
+                                    <br>a unique resource pooling system of matching and integrating interns with the
+                                    <br>goals of the client organizations to ensure maximum impact.
+                                </div>
+                                <div class="tp-caption tp-resizeme" id="slide-4-layer-8" data-x="140" data-y="center" data-voffset="310" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="2100" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 12; min-width: auto; min-height: auto; white-space: nowrap; max-width: auto; max-height: auto; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255, 255, 255, 1.00);padding:0 0 0 0;border-radius:0 0 0 0;">
+                                    <a class="button button_stroke_custom button_js" href="#" style=" border-color:#000 !important; "><span class="button_label">See the project</span></a>
+                                </div>
+                            </li>
+                            <li data-index="rs-5" data-transition="fade" data-slotamount="7" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Slide" data-description="">
+                                <img src="content/webdesign/images/luca-bravo-207676-min.jpg" alt="" width="1920" height="1200" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                                <div class="tp-caption tp-resizeme" id="slide-4-layer-1" data-x="right" data-hoffset="-50" data-y="-50" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:2000;y:0;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="300" data-responsive_offset="on" style="z-index: 5; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide4_cover2.png" alt="" width="335" height="402" data-no-retina>
+                                </div>
+                                <div class="tp-caption tp-resizeme" id="slide-4-layer-2" data-x="-10" data-y="-10" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:-2000;y:0;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1300;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="500" data-responsive_offset="on" style="z-index: 6; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide4_cover.png" alt="" width="1719" height="1600" data-no-retina>
+                                </div>
+                                <div class="tp-caption tp-resizeme" id="slide-4-layer-3" data-x="-300" data-y="-10" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:-2000;y:0;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1300;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="800" data-responsive_offset="on" style="z-index: 7; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide4_cover.png" alt="" width="1719" height="1600" data-no-retina>
+                                </div>
+                                <div class="tp-caption tp-resizeme" id="slide-4-layer-4" data-x="140" data-y="center" data-voffset="-90" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="y:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1400" data-responsive_offset="on" style="z-index: 8; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide4_num.png" alt="" width="111" height="72" data-no-retina>
+                                </div>
+                                <div class="tp-caption mfnrswebdesignlargelight tp-resizeme" id="slide-4-layer-5" data-x="140" data-y="center" data-voffset="10" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 9; min-width: auto; min-height: auto; white-space: nowrap; max-width: auto; max-height: auto; font-size: 46px; line-height: 46px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family:Alegreya sans, sans-serif;padding:0 0 0 0;border-color:rgba(0, 0, 0, 1.00);border-radius:0 0 0 0;">
+                                    WORTHJOBS
+                                </div>
+                                <div class="tp-caption tp-resizeme" id="slide-4-layer-6" data-x="140" data-y="center" data-voffset="70" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1700" data-responsive_offset="on" style="z-index: 10; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slider_sep.png" alt="" width="83" height="3" data-no-retina>
+                                </div>
+                                <div class="tp-caption mfnrswebdesignsmalllight tp-resizeme" id="slide-4-layer-7" data-x="140" data-y="center" data-voffset="169" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1900" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 11; min-width: auto; min-height: auto; white-space: nowrap; max-width: auto; max-height: auto; font-size: 16px; line-height: 23px; font-weight: 300; color: rgba(255, 255, 255, 1.00);font-family:Alegreya sans, sans-serif;padding:0 0 0 0;border-color:rgba(0, 0, 0, 1.00);border-radius:0 0 0 0;">
+                                    WORTHJOBS is a HR service of Worth Group and their mission is to match great people with great
+                                    <br>jobs. Worthjobs utilizes the most advanced technology to build bespoke solutions to help you
+                                    <br>find the best opportunities in the market.
+                                </div>
+                                <div class="tp-caption tp-resizeme" id="slide-4-layer-8" data-x="140" data-y="center" data-voffset="310" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="2100" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 12; min-width: auto; min-height: auto; white-space: nowrap; max-width: auto; max-height: auto; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255, 255, 255, 1.00);padding:0 0 0 0;border-radius:0 0 0 0;">
+                                    <a class="button button_stroke_custom button_js" href="#" style=" border-color:#000 !important;"><span class="button_label">See the project</span></a>
                                 </div>
                             </li>
                         </ul>
                         <div class="tp-bannertimer tp-bottom flv_viz_hid"></div>
                     </div>
                 </div>
+                <!-- Header Wrapper -->
+                <div id="Header_wrapper">
+                    <!-- Header -->
+                    <header id="Header">
+                        <!-- Header -  Logo and Menu area -->
+            <div id="Top_bar">
+                <div class="container">
+                    <div class="column one">
+                        <div class="top_bar_left clearfix">
+                            <!-- Logo-->
+                            <div class="logo">
+                                <a id="logo" href="{{route('home')}}" title=""><img class="scale-with-grid" src="images/" alt="logo" />
+                                </a>
+                            </div>
+                            <!-- Main menu-->
+                            <div class="menu_wrapper">
+                                <nav id="menu">
+                                    <ul id="menu-main-menu" class="menu">
+                                        <li id="menu-item-1354">
+                                            <a href="{{route('home')}}" target="_blank"><span >Home</span></a>
+                                        </li>
+                                        <li id="menu-item-1690">
+                                            <a href="{{route(('about'))}}"><span >About Us</span></a>
+                                        </li>
+                                        <li id="menu-item-1690">
+                                            <a href="{{route('project')}}"><span >Projects</span></a>
+                                        </li>
+                                        <li id="menu-item-1690">
+                                            <a href="{{route('home')}}"><span >What we Offer</span></a>
+                                        </li>
+                                        <li id="menu-item-1690">
+                                            <a href="{{route('contact')}}"><span>Contact Us</span></a>
+                                        </li>
+
+                                    </ul>
+                                </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    </header>
             </div>
-        </header>
+        </div>
+
         @yield('header')
     </div>
 
@@ -221,8 +250,9 @@
                     <aside class="widget widget_text">
                         <div class="textwidget">
                             <div class="image_frame no_link scale-with-grid alignnone no_border">
-                                <div class="image_wrapper"><img class="scale-with-grid" src="content/webdesign/images/" alt="WorthIT 360">
+                                <div class="image_wrapper">
                                 </div>
+                                {{--<img class="scale-with-grid" src="content/webdesign/images/" alt="WorthIT 360">--}}
                             </div>
                         </div>
                     </aside>
@@ -232,9 +262,14 @@
                     <!-- Text Area -->
                     <aside class="widget widget_text">
                         <div class="textwidget">
-                            <p class="contact_icons" style="text-align: right; margin-top: 10px;">
-                                <a style="color: #3a589b;" href="#"><i class="icon-facebook-circled"></i></a><a style="color: #d6492f;" href="#"><i class="icon-gplus-circled"></i></a><a style="color: #32ccfe;" href="#"><i class="icon-twitter-circled"></i></a><a style="color: #cb2027;" href="#"><i class="icon-pinterest-circled"></i></a><a style="color: #007bb6;" href="#"><i class="icon-linkedin-circled"></i></a>
-                            </p>
+                            {{--<p class="contact_icons" style="text-align: right; margin-top: 10px;">--}}
+                                {{--<a style="color: #3a589b;" href="#"><i class="icon-facebook-circled"></i></a><a style="color: #d6492f;" href="#">--}}
+                                    {{--<i class="icon-gplus-circled"></i></a><a style="color: #32ccfe;" href="#">--}}
+                                    {{--<i class="icon-twitter-circled"></i></a><a style="color: #cb2027;" href="#">--}}
+                                    {{--<i class="icon-pinterest-circled"></i></a><a style="color: #007bb6;" href="#">--}}
+                                    {{--<i class="icon-linkedin-circled"></i>--}}
+                                {{--</a>--}}
+                            {{--</p>--}}
                         </div>
                     </aside>
                 </div>
@@ -251,19 +286,19 @@
                     <nav id="social-menu">
                         <ul id="menu-main-menu-1" class="social-menu">
                             <li>
-                                <a href="">Home</a>
+                                <a href="{{route('home')}}">Home</a>
                             </li>
                             <li>
-                                <a href="}">About BeWebdesign</a>
+                                <a href="{{route('about')}}">About Us</a>
+                            </li>
+                            <li>we
+                                <a href="{{route('home')}}">What we offer</a>
                             </li>
                             <li>
-                                <a href="">What we offer</a>
+                                <a href="{{route('project')}}">Projects</a>
                             </li>
                             <li>
-                                <a href="">Projects</a>
-                            </li>
-                            <li>
-                                <a href="">Contact us</a>
+                                <a href="{{route('contact')}}">Contact us</a>
                             </li>
                         </ul>
                     </nav>
