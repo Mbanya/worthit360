@@ -32,7 +32,6 @@
 body {
   font: 400 13px/2.15385 Merriweather;
   color: #777;
-  background-color: #222;
 }
 
 .l-theme {
@@ -3202,7 +3201,6 @@ blockquote.b-blockquote-post p {
 
 /* ======= FOOTER ======= */
 .footer {
-  margin-bottom: 50px;
   padding-top: 32px;
   font-size: 12px;
   background-color: #111;

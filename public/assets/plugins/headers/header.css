@@ -535,7 +535,7 @@ body:not(.header-demo) .navbar-scrolling .top-bar {
   display: block;
   content: '0' counter(list);
   counter-increment: list;
-  text-align: right;
+  text-align: left;
   color: #aaa;
   font: italic 300 14px Merriweather;
   margin-bottom: 11px;

@@ -1,28 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>United</title>
-    <meta content="" name="description" />
-    <meta content="" name="keywords" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta content="telephone=no" name="format-detection" />
-    <meta name="HandheldFriendly" content="true" />
-    <link rel="stylesheet" href="assets/css/master.css" />
-    <!-- SWITCHER-->
-    <link href="assets/plugins/switcher/css/switcher.css" rel="stylesheet" id="switcher-css" />
-    <link href="assets/plugins/switcher/css/color1.css" rel="alternate stylesheet" title="color1" />
-    <link href="assets/plugins/switcher/css/color2.css" rel="alternate stylesheet" title="color2" />
-    <link href="assets/plugins/switcher/css/color3.css" rel="alternate stylesheet" title="color3" />
-    <link href="assets/plugins/switcher/css/color4.css" rel="alternate stylesheet" title="color4" />
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
-    <!--[if lt IE 9 ]>
-<script src="/assets/js/separate-js/html5shiv-3.7.2.min.js" type="text/javascript"></script><meta content="no" http-equiv="imagetoolbar">
-<![endif]-->
-</head>
-
+@extends('layout.layout_portfolio)
 <body class="loading">
     <!-- Loader-->
     <div class="screen-loader">
@@ -43,26 +19,6 @@
 
 
     <div class="l-theme animated-css" data-header="sticky" data-header-top="200" data-canvas="container">
-        <!-- Start Switcher-->
-        <div class="switcher-wrapper">
-            <div class="demo_changer">
-                <div class="demo-icon text-primary"><i class="fa fa-cog fa-spin fa-2x"></i></div>
-                <div class="form_holder">
-                    <div class="predefined_styles">
-                        <div class="skin-theme-switcher">
-                            <h4>Color</h4>
-                            <a class="styleswitch" href="javascript:void(0);" data-switchcolor="color1" style="background-color:#e0e242"></a>
-                            <a class="styleswitch" href="javascript:void(0);" data-switchcolor="color2" style="background-color:#FFAC3A"></a>
-                            <a class="styleswitch" href="javascript:void(0);" data-switchcolor="color3" style="background-color:#28af0f"></a>
-                            <a class="styleswitch" href="javascript:void(0);" data-switchcolor="color4" style="background-color:#e425e9"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- end switcher-->
-
-
 
         <!-- ==========================-->
         <!-- SEARCH MODAL-->
@@ -101,13 +57,13 @@
                 <li class="dropdown"><a class="dropdown-toggle" href="#">Works</a>
                     <ul class="dropdown-menu">
                         <li><a href="portfolio.html">Works ver 01</a></li>
-                        <li><a href="portfolio-2.html">Works ver 02</a></li>
+                        <li><a href="portfolio.blade.php">Works ver 02</a></li>
                         <li><a href="portfolio-3.html">Works ver 03</a></li>
                         <li class="divider"></li>
-                        <li><a href="portfolio-details.blade.php">Works details</a></li>
+                        <li><a href="portfolio-details.html">Works details</a></li>
                     </ul>
                 </li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="../portfoilio.blade.php">About</a></li>
                 <li class="dropdown"><a class="dropdown-toggle" href="#">News</a>
                     <ul class="dropdown-menu">
                         <li><a href="blog-main.html">Blog main</a></li>
@@ -205,13 +161,13 @@
                             <li class="dropdown"><a class="dropdown-toggle" href="#">Works</a>
                                 <ul class="dropdown-menu">
                                     <li><a href="portfolio.html">Works ver 01</a></li>
-                                    <li><a href="portfolio-2.html">Works ver 02</a></li>
+                                    <li><a href="portfolio.blade.php">Works ver 02</a></li>
                                     <li><a href="portfolio-3.html">Works ver 03</a></li>
                                     <li class="divider"></li>
-                                    <li><a href="portfolio-details.blade.php">Works details</a></li>
+                                    <li><a href="portfolio-details.html">Works details</a></li>
                                 </ul>
                             </li>
-                            <li><a href="about.html">About</a></li>
+                            <li><a href="../portfoilio.blade.php">About</a></li>
                             <li class="dropdown"><a class="dropdown-toggle" href="#">News</a>
                                 <ul class="dropdown-menu">
                                     <li><a href="blog-main.html">Blog main</a></li>
@@ -282,47 +238,47 @@
                 <ul class="b-isotope-grid grid list-unstyled js-zoom-gallery">
                     <li class="grid-sizer"></li>
                     <li class="b-isotope-grid__item grid-item design illustration">
-                        <a class="b-isotope-grid__inner" href="portfolio-details.blade.php"><img src="assets/media/components/b-isotope/430x260_5.jpg" alt="foto" /><span class="b-isotope-grid__wrap-info hvr-shutter-in-vertical"><span class="b-isotope-grid__info"><span class="b-isotope-grid__title">emma card</span><span class="b-isotope-grid__categorie">Branding</span></span>
+                        <a class="b-isotope-grid__inner" href="portfolio-details.html"><img src="assets/media/components/b-isotope/430x260_5.jpg" alt="foto" /><span class="b-isotope-grid__wrap-info hvr-shutter-in-vertical"><span class="b-isotope-grid__info"><span class="b-isotope-grid__title">emma card</span><span class="b-isotope-grid__categorie">Branding</span></span>
                             </span>
                         </a>
                     </li>
                     <li class="b-isotope-grid__item grid-item design">
-                        <a class="b-isotope-grid__inner" href="portfolio-details.blade.php"><img src="assets/media/components/b-isotope/435x550_3.jpg" alt="foto" /><span class="b-isotope-grid__wrap-info hvr-shutter-in-vertical"><span class="b-isotope-grid__info"><span class="b-isotope-grid__title">emma card</span><span class="b-isotope-grid__categorie">Branding</span></span>
+                        <a class="b-isotope-grid__inner" href="portfolio-details.html"><img src="assets/media/components/b-isotope/435x550_3.jpg" alt="foto" /><span class="b-isotope-grid__wrap-info hvr-shutter-in-vertical"><span class="b-isotope-grid__info"><span class="b-isotope-grid__title">emma card</span><span class="b-isotope-grid__categorie">Branding</span></span>
                             </span>
                         </a>
                     </li>
                     <li class="b-isotope-grid__item grid-item photography video illustration">
-                        <a class="b-isotope-grid__inner" href="portfolio-details.blade.php"><img src="assets/media/components/b-isotope/430x260_6.jpg" alt="foto" /><span class="b-isotope-grid__wrap-info hvr-shutter-in-vertical"><span class="b-isotope-grid__info"><span class="b-isotope-grid__title">emma card</span><span class="b-isotope-grid__categorie">Branding</span></span>
+                        <a class="b-isotope-grid__inner" href="portfolio-details.html"><img src="assets/media/components/b-isotope/430x260_6.jpg" alt="foto" /><span class="b-isotope-grid__wrap-info hvr-shutter-in-vertical"><span class="b-isotope-grid__info"><span class="b-isotope-grid__title">emma card</span><span class="b-isotope-grid__categorie">Branding</span></span>
                             </span>
                         </a>
                     </li>
                     <li class="b-isotope-grid__item grid-item design mobile">
-                        <a class="b-isotope-grid__inner" href="portfolio-details.blade.php"><img src="assets/media/components/b-isotope/435x550_4.jpg" alt="foto" /><span class="b-isotope-grid__wrap-info hvr-shutter-in-vertical"><span class="b-isotope-grid__info"><span class="b-isotope-grid__title">emma card</span><span class="b-isotope-grid__categorie">Branding</span></span>
+                        <a class="b-isotope-grid__inner" href="portfolio-details.html"><img src="assets/media/components/b-isotope/435x550_4.jpg" alt="foto" /><span class="b-isotope-grid__wrap-info hvr-shutter-in-vertical"><span class="b-isotope-grid__info"><span class="b-isotope-grid__title">emma card</span><span class="b-isotope-grid__categorie">Branding</span></span>
                             </span>
                         </a>
                     </li>
                     <li class="b-isotope-grid__item grid-item photography video illustration">
-                        <a class="b-isotope-grid__inner" href="portfolio-details.blade.php"><img src="assets/media/components/b-isotope/430x260_7.jpg" alt="foto" /><span class="b-isotope-grid__wrap-info hvr-shutter-in-vertical"><span class="b-isotope-grid__info"><span class="b-isotope-grid__title">emma card</span><span class="b-isotope-grid__categorie">Branding</span></span>
+                        <a class="b-isotope-grid__inner" href="portfolio-details.html"><img src="assets/media/components/b-isotope/430x260_7.jpg" alt="foto" /><span class="b-isotope-grid__wrap-info hvr-shutter-in-vertical"><span class="b-isotope-grid__info"><span class="b-isotope-grid__title">emma card</span><span class="b-isotope-grid__categorie">Branding</span></span>
                             </span>
                         </a>
                     </li>
                     <li class="b-isotope-grid__item grid-item video">
-                        <a class="b-isotope-grid__inner" href="portfolio-details.blade.php"><img src="assets/media/components/b-isotope/430x260_3.jpg" alt="foto" /><span class="b-isotope-grid__wrap-info hvr-shutter-in-vertical"><span class="b-isotope-grid__info"><span class="b-isotope-grid__title">emma card</span><span class="b-isotope-grid__categorie">Branding</span></span>
+                        <a class="b-isotope-grid__inner" href="portfolio-details.html"><img src="assets/media/components/b-isotope/430x260_3.jpg" alt="foto" /><span class="b-isotope-grid__wrap-info hvr-shutter-in-vertical"><span class="b-isotope-grid__info"><span class="b-isotope-grid__title">emma card</span><span class="b-isotope-grid__categorie">Branding</span></span>
                             </span>
                         </a>
                     </li>
                     <li class="b-isotope-grid__item grid-item illustration mobile">
-                        <a class="b-isotope-grid__inner" href="portfolio-details.blade.php"><img src="assets/media/components/b-isotope/430x260_8.jpg" alt="foto" /><span class="b-isotope-grid__wrap-info hvr-shutter-in-vertical"><span class="b-isotope-grid__info"><span class="b-isotope-grid__title">emma card</span><span class="b-isotope-grid__categorie">Branding</span></span>
+                        <a class="b-isotope-grid__inner" href="portfolio-details.html"><img src="assets/media/components/b-isotope/430x260_8.jpg" alt="foto" /><span class="b-isotope-grid__wrap-info hvr-shutter-in-vertical"><span class="b-isotope-grid__info"><span class="b-isotope-grid__title">emma card</span><span class="b-isotope-grid__categorie">Branding</span></span>
                             </span>
                         </a>
                     </li>
                     <li class="b-isotope-grid__item grid-item grid-item_wx2 photography">
-                        <a class="b-isotope-grid__inner" href="portfolio-details.blade.php"><img src="assets/media/components/b-isotope/895x260_1.jpg" alt="foto" /><span class="b-isotope-grid__wrap-info hvr-shutter-in-vertical"><span class="b-isotope-grid__info"><span class="b-isotope-grid__title">emma card</span><span class="b-isotope-grid__categorie">Branding</span></span>
+                        <a class="b-isotope-grid__inner" href="portfolio-details.html"><img src="assets/media/components/b-isotope/895x260_1.jpg" alt="foto" /><span class="b-isotope-grid__wrap-info hvr-shutter-in-vertical"><span class="b-isotope-grid__info"><span class="b-isotope-grid__title">emma card</span><span class="b-isotope-grid__categorie">Branding</span></span>
                             </span>
                         </a>
                     </li>
                     <li class="b-isotope-grid__item grid-item video design">
-                        <a class="b-isotope-grid__inner" href="portfolio-details.blade.php"><img src="assets/media/components/b-isotope/430x260_9.jpg" alt="foto" /><span class="b-isotope-grid__wrap-info hvr-shutter-in-vertical"><span class="b-isotope-grid__info"><span class="b-isotope-grid__title">emma card</span><span class="b-isotope-grid__categorie">Branding</span></span>
+                        <a class="b-isotope-grid__inner" href="portfolio-details.html"><img src="assets/media/components/b-isotope/430x260_9.jpg" alt="foto" /><span class="b-isotope-grid__wrap-info hvr-shutter-in-vertical"><span class="b-isotope-grid__info"><span class="b-isotope-grid__title">emma card</span><span class="b-isotope-grid__categorie">Branding</span></span>
                             </span>
                         </a>
                     </li>
@@ -383,7 +339,7 @@
                                 <h3 class="footer-section__title">company</h3>
                                 <ul class="footer-list list-unstyled">
                                     <li class="footer-list__item"><a class="footer-list__link" href="home.html">Home Page</a></li>
-                                    <li class="footer-list__item"><a class="footer-list__link" href="about.html">About United</a></li>
+                                    <li class="footer-list__item"><a class="footer-list__link" href="../portfoilio.blade.php">About United</a></li>
                                     <li class="footer-list__item"><a class="footer-list__link" href="services.html">What We Offers</a></li>
                                     <li class="footer-list__item"><a class="footer-list__link" href="portfolio.html">The Latest Projects</a></li>
                                     <li class="footer-list__item"><a class="footer-list__link" href="contact.html">Contact us</a></li>

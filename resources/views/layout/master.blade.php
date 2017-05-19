@@ -1,383 +1,207 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]><html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7 "> <![endif]-->
-<!--[if IE 7]><html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]><html class="no-js lt-ie10 lt-ie9"> <![endif]-->
-<!--[if IE 9]><html class="no-js lt-ie10"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js">
-<!--<![endif]-->
+<html lang="en">
 
 <head>
-
-    <!-- Basic Page Needs -->
-    <meta charset="utf-8">
-    <title>WorthIT360</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- Mobile Specific Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-    <!-- Favicons -->
-    <link rel="shortcut icon" href="{{'images/favicon.ico'}}">
-
-    <!-- FONTS -->
-    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,400italic,700'>
-    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans:100,300,400,400italic,500,700'>
-    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Patua+One:100,300,400,400italic,700'>
-
-    <!-- CSS -->
-    <link rel='stylesheet' href='{{asset('css/global.css')}}'>
-    <link rel='stylesheet' href='{{asset('css/structure.css')}}'>
-    <link rel='stylesheet' href='{{asset('css/itservice.css')}}'>
-    <link rel='stylesheet' href='{{asset('css/custom.css')}}'>
-    <link rel='stylesheet' href='{{asset('content/webdesign/css/structure.css')}}'>
-    <link rel='stylesheet' href='{{asset('content/webdesign/css/webdesign.css')}}'>
-    <link rel='stylesheet' href='{{asset('content/webdesign/css/custom.css')}}'>
-
-    <!-- Revolution Slider -->
-    <link rel="stylesheet" href="{{asset('plugins/rs-plugin/css/settings.css')}}">
-@yield('assets')
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Projects</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content="telephone=no" name="format-detection" />
+    <meta name="HandheldFriendly" content="true" />
+    <link rel="stylesheet" href="assets/css/master.css" />
+    <!-- SWITCHER-->
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <!--[if lt IE 9 ]>
+    <script src="/assets/js/separate-js/html5shiv-3.7.2.min.js" type="text/javascript"></script><meta content="no" http-equiv="imagetoolbar">
+    <![endif]-->
+    @yield('assets')
 </head>
-<body class="template-slider layout-full-width header-classic minimalist-header header-menu-right one-page sticky-header sticky-white subheader-title-left button-stroke no-content-padding">
 
-<!-- Main Theme Wrapper -->
-<div id="Wrapper">
-    <!-- Header Wrapper -->
-    <div id="Header_wrapper">
-        <!-- Header -->
-        <header id="Header">
-
-            <!-- Header -  Logo and Menu area -->
-            <div id="Top_bar">
-                <div class="container">
-                    <div class="column one">
-                        <div class="top_bar_left clearfix">
-                            <!-- Logo-->
-                            <div class="logo">
-                                <h1><a id="logo" href="index.blade.php" title="BeITService - BeTheme"><img class="scale-with-grid" src="content/itservice/images/itservice.png" alt="BeITService - BeTheme" /></a></h1>
-                            </div>
-                            <!-- Main menu-->
-                            <div class="menu_wrapper">
-                                <nav id="menu">
-                                    <ul id="menu-main-menu" class="menu">
-                                        <li>
-                                            <a href="index.blade.php#Header_wrapper"><span>Start</span></a>
-                                        </li>
-                                        <li>
-                                            <a href="index.blade.php#repair"><span>What we repair?</span></a>
-                                        </li>
-                                        <li>
-                                            <a href="index.blade.php#offer"><span>Offer</span></a>
-                                        </li>
-                                        <li>
-                                            <a href="index.blade.php#testimonials"><span>Testimonials</span></a>
-                                        </li>
-                                        <li>
-                                            <a href="index.blade.php#reasons"><span>Why choose us?</span></a>
-                                        </li>
-                                        <li>
-                                            <a href="index.blade.php#device"><span>Send your device</span></a>
-                                        </li>
-                                    </ul>
-                                </nav><a class="responsive-menu-toggle" href="#"><i class="icon-menu"></i></a>
-                            </div>
-                            <!-- Header Searchform area-->
-                            <div class="search_wrapper">
-                                <form method="get" action="#">
-                                    <i class="icon_search icon-search"></i><a href="#" class="icon_close"><i class="icon-cancel"></i></a>
-                                    <input type="text" class="field" name="s" placeholder="Enter your search" />
-                                    <input type="submit" class="submit flv_disp_none" value="" />
-                                </form>
-                            </div>
-                        </div>
-                        <div class="top_bar_right">
-                            <div class="top_bar_right_wrapper">
-                                <a href="#" class="button button_theme button_js action_button"><span class="button_label">Hire us!</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Revolution slider area-->
-            <div class="mfn-main-slider">
-                <div id="rev_slider_1_2_wrapper" class="rev_slider_wrapper fullscreen-container" style="padding:0px;">
-                    <div id="rev_slider_1_2" class="rev_slider fullscreenbanner" data-version="5.0.4.1">
-                        <ul>
-                            <li data-index="rs-1" data-transition="fade" data-slotamount="7" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Slide" data-description="">
-                                <img src="images/home_webdesign_slide1_bg.jpg" alt="" width="1920" height="1200" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                                <div class="tp-caption tp-resizeme" id="slide-1-layer-1" data-x="right" data-hoffset="-50" data-y="-50" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:2000;y:0;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="300" data-responsive_offset="on" style="z-index: 5; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide1_cover2.png" alt="" width="335" height="402" data-no-retina>
-                                </div>
-                                <div class="tp-caption tp-resizeme" id="slide-1-layer-2" data-x="-10" data-y="-10" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:-2000;y:0;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1300;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="500" data-responsive_offset="on" style="z-index: 6; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide1_cover.png" alt="" width="1719" height="1600" data-no-retina>
-                                </div>
-                                <div class="tp-caption tp-resizeme" id="slide-1-layer-3" data-x="-300" data-y="-10" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:-2000;y:0;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1300;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="800" data-responsive_offset="on" style="z-index: 7; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide1_cover.png" alt="" width="1719" height="1600" data-no-retina>
-                                </div>
-                                <div class="tp-caption tp-resizeme" id="slide-1-layer-4" data-x="140" data-y="center" data-voffset="-90" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="y:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1400" data-responsive_offset="on" style="z-index: 8; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide1_num.png" alt="" width="82" height="73" data-no-retina>
-                                </div>
-                                <div class="tp-caption mfnrswebdesignlargelight tp-resizeme" id="slide-1-layer-5" data-x="140" data-y="center" data-voffset="10" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 9; min-width: auto; min-height: auto; white-space: nowrap; max-width: auto; max-height: auto; font-size: 46px; line-height: 46px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family:Alegreya sans, sans-serif;padding:0 0 0 0;border-color:rgba(0, 0, 0, 1.00);border-radius:0 0 0 0;">
-                                    CHARLIE ltd
-                                </div>
-                                <div class="tp-caption tp-resizeme" id="slide-1-layer-6" data-x="140" data-y="center" data-voffset="70" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1700" data-responsive_offset="on" style="z-index: 10; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slider_sep.png" alt="" width="83" height="3" data-no-retina>
-                                </div>
-                                <div class="tp-caption mfnrswebdesignsmalllight tp-resizeme" id="slide-1-layer-7" data-x="140" data-y="center" data-voffset="169" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1900" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 11; min-width: auto; min-height: auto; white-space: nowrap; max-width: auto; max-height: auto; font-size: 16px; line-height: 23px; font-weight: 300; color: rgba(255, 255, 255, 1.00);font-family:Alegreya sans, sans-serif;padding:0 0 0 0;border-color:rgba(0, 0, 0, 1.00);border-radius:0 0 0 0;">
-                                    Per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis
-                                    <br> dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut
-                                    <br> imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra,
-                                    <br> erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam
-                                    <br> massa nisl quis neque. Suspendisse in orci enim.
-                                </div>
-                                <div class="tp-caption tp-resizeme" id="slide-1-layer-8" data-x="140" data-y="center" data-voffset="310" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="2100" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 12; min-width: auto; min-height: auto; white-space: nowrap; max-width: auto; max-height: auto; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255, 255, 255, 1.00);padding:0 0 0 0;border-radius:0 0 0 0;">
-                                    <a class="button button_stroke_custom button_js" href="#" style=" border-color:#fff !important; color:#fff;"><span class="button_label">See the project</span></a>
-                                </div>
-                            </li>
-                            <li data-index="rs-2" data-transition="fade" data-slotamount="7" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Slide" data-description="">
-                                <img src="content/webdesign/images/home_webdesign_slide3_bg.jpg" alt="" width="1920" height="1200" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                                <div class="tp-caption tp-resizeme" id="slide-2-layer-1" data-x="right" data-hoffset="-50" data-y="-50" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:2000;y:0;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="300" data-responsive_offset="on" style="z-index: 5; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide3_cover2.png" alt="" width="335" height="402" data-no-retina>
-                                </div>
-                                <div class="tp-caption tp-resizeme" id="slide-2-layer-2" data-x="-10" data-y="-10" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:-2000;y:0;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1300;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="500" data-responsive_offset="on" style="z-index: 6; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide3_cover.png" alt="" width="1719" height="1600" data-no-retina>
-                                </div>
-                                <div class="tp-caption tp-resizeme" id="slide-2-layer-3" data-x="-300" data-y="-10" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:-2000;y:0;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1300;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="800" data-responsive_offset="on" style="z-index: 7; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide3_cover.png" alt="" width="1719" height="1600" data-no-retina>
-                                </div>
-                                <div class="tp-caption tp-resizeme" id="slide-2-layer-4" data-x="140" data-y="center" data-voffset="-90" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="y:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1400" data-responsive_offset="on" style="z-index: 8; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide2_num.png" alt="" width="114" height="72" data-no-retina>
-                                </div>
-                                <div class="tp-caption mfnrswebdesignlargelight tp-resizeme" id="slide-2-layer-5" data-x="140" data-y="center" data-voffset="10" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 9; min-width: auto; min-height: auto; white-space: nowrap; max-width: auto; max-height: auto; font-size: 46px; line-height: 46px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family:Alegreya sans, sans-serif;padding:0 0 0 0;border-color:rgba(0, 0, 0, 1.00);border-radius:0 0 0 0;">
-                                    BE THEME BRAND
-                                </div>
-                                <div class="tp-caption tp-resizeme" id="slide-2-layer-6" data-x="140" data-y="center" data-voffset="70" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1700" data-responsive_offset="on" style="z-index: 10; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slider_sep.png" alt="" width="83" height="3" data-no-retina>
-                                </div>
-                                <div class="tp-caption mfnrswebdesignsmalllight tp-resizeme" id="slide-2-layer-7" data-x="140" data-y="center" data-voffset="169" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1900" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 11; min-width: auto; min-height: auto; white-space: nowrap; max-width: auto; max-height: auto; font-size: 16px; line-height: 23px; font-weight: 300; color: rgba(255, 255, 255, 1.00);font-family:Alegreya sans, sans-serif;padding:0 0 0 0;border-color:rgba(0, 0, 0, 1.00);border-radius:0 0 0 0;">
-                                    Per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis
-                                    <br> dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut
-                                    <br> imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra,
-                                    <br> erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam
-                                    <br> massa nisl quis neque. Suspendisse in orci enim.
-                                </div>
-                                <div class="tp-caption tp-resizeme" id="slide-2-layer-8" data-x="140" data-y="center" data-voffset="310" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="2100" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 12; min-width: auto; min-height: auto; white-space: nowrap; max-width: auto; max-height: auto; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255, 255, 255, 1.00);padding:0 0 0 0;border-radius:0 0 0 0;">
-                                    <a class="button button_stroke_custom button_js" href="#" style=" border-color:#fff !important; color:#fff;"><span class="button_label">See the project</span></a>
-                                </div>
-                            </li>
-                            <li data-index="rs-3" data-transition="fade" data-slotamount="7" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Slide" data-description="">
-                                <img src="images/home_webdesign_slide4_bg.jpg" alt="" width="1920" height="1200" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                                <div class="tp-caption tp-resizeme" id="slide-3-layer-1" data-x="right" data-hoffset="-50" data-y="-50" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:2000;y:0;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="300" data-responsive_offset="on" style="z-index: 5; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide4_cover2.png" alt="" width="335" height="402" data-no-retina>
-                                </div>
-                                <div class="tp-caption tp-resizeme" id="slide-3-layer-2" data-x="-10" data-y="-10" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:-2000;y:0;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1300;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="500" data-responsive_offset="on" style="z-index: 6; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide4_cover.png" alt="" width="1719" height="1600" data-no-retina>
-                                </div>
-                                <div class="tp-caption tp-resizeme" id="slide-3-layer-3" data-x="-300" data-y="-10" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:-2000;y:0;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1300;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="800" data-responsive_offset="on" style="z-index: 7; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide4_cover.png" alt="" width="1719" height="1600" data-no-retina>
-                                </div>
-                                <div class="tp-caption tp-resizeme" id="slide-3-layer-4" data-x="140" data-y="center" data-voffset="-90" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="y:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1400" data-responsive_offset="on" style="z-index: 8; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide3.png" alt="" width="101" height="72" data-no-retina>
-                                </div>
-                                <div class="tp-caption mfnrswebdesignlargelight tp-resizeme" id="slide-3-layer-5" data-x="140" data-y="center" data-voffset="10" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 9; min-width: auto; min-height: auto; white-space: nowrap; max-width: auto; max-height: auto; font-size: 46px; line-height: 46px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family:Alegreya sans, sans-serif;padding:0 0 0 0;border-color:rgba(0, 0, 0, 1.00);border-radius:0 0 0 0;">
-                                    NICESHOP.COM
-                                </div>
-                                <div class="tp-caption tp-resizeme" id="slide-3-layer-6" data-x="140" data-y="center" data-voffset="70" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1700" data-responsive_offset="on" style="z-index: 10; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slider_sep.png" alt="" width="83" height="3" data-no-retina>
-                                </div>
-                                <div class="tp-caption mfnrswebdesignsmalllight tp-resizeme" id="slide-3-layer-7" data-x="140" data-y="center" data-voffset="169" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1900" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 11; min-width: auto; min-height: auto; white-space: nowrap; max-width: auto; max-height: auto; font-size: 16px; line-height: 23px; font-weight: 300; color: rgba(255, 255, 255, 1.00);font-family:Alegreya sans, sans-serif;padding:0 0 0 0;border-color:rgba(0, 0, 0, 1.00);border-radius:0 0 0 0;">
-                                    Per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis
-                                    <br> dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut
-                                    <br> imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra,
-                                    <br> erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam
-                                    <br> massa nisl quis neque. Suspendisse in orci enim.
-                                </div>
-                                <div class="tp-caption tp-resizeme" id="slide-3-layer-8" data-x="140" data-y="center" data-voffset="310" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="2100" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 12; min-width: auto; min-height: auto; white-space: nowrap; max-width: auto; max-height: auto; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255, 255, 255, 1.00);padding:0 0 0 0;border-radius:0 0 0 0;">
-                                    <a class="button button_stroke_custom button_js" href="#" style=" border-color:#fff !important; color:#fff;"><span class="button_label">See the project</span></a>
-                                </div>
-                            </li>
-                            <li data-index="rs-4" data-transition="fade" data-slotamount="7" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Slide" data-description="">
-                                <img src="images/home_webdesign_slide2_bg.jpg" alt="" width="1920" height="1200" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                                <div class="tp-caption tp-resizeme" id="slide-4-layer-1" data-x="right" data-hoffset="-50" data-y="-50" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:2000;y:0;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="300" data-responsive_offset="on" style="z-index: 5; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide2_cover2.png" alt="" width="335" height="402" data-no-retina>
-                                </div>
-                                <div class="tp-caption tp-resizeme" id="slide-4-layer-2" data-x="-10" data-y="-10" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:-2000;y:0;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1300;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="500" data-responsive_offset="on" style="z-index: 6; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide2_cover.png" alt="" width="1719" height="1600" data-no-retina>
-                                </div>
-                                <div class="tp-caption tp-resizeme" id="slide-4-layer-3" data-x="-300" data-y="-10" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:-2000;y:0;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1300;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="800" data-responsive_offset="on" style="z-index: 7; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide2_cover.png" alt="" width="1719" height="1600" data-no-retina>
-                                </div>
-                                <div class="tp-caption tp-resizeme" id="slide-4-layer-4" data-x="140" data-y="center" data-voffset="-90" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="y:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1400" data-responsive_offset="on" style="z-index: 8; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slide4_num.png" alt="" width="111" height="72" data-no-retina>
-                                </div>
-                                <div class="tp-caption mfnrswebdesignlargelight tp-resizeme" id="slide-4-layer-5" data-x="140" data-y="center" data-voffset="10" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 9; min-width: auto; min-height: auto; white-space: nowrap; max-width: auto; max-height: auto; font-size: 46px; line-height: 46px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family:Alegreya sans, sans-serif;padding:0 0 0 0;border-color:rgba(0, 0, 0, 1.00);border-radius:0 0 0 0;">
-                                    KERRIS CREATION
-                                </div>
-                                <div class="tp-caption tp-resizeme" id="slide-4-layer-6" data-x="140" data-y="center" data-voffset="70" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1700" data-responsive_offset="on" style="z-index: 10; line-height: 22px;padding:0 0 0 0;border-radius:0 0 0 0;"><img src="content/webdesign/images/home_webdesign_slider_sep.png" alt="" width="83" height="3" data-no-retina>
-                                </div>
-                                <div class="tp-caption mfnrswebdesignsmalllight tp-resizeme" id="slide-4-layer-7" data-x="140" data-y="center" data-voffset="169" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="1900" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 11; min-width: auto; min-height: auto; white-space: nowrap; max-width: auto; max-height: auto; font-size: 16px; line-height: 23px; font-weight: 300; color: rgba(255, 255, 255, 1.00);font-family:Alegreya sans, sans-serif;padding:0 0 0 0;border-color:rgba(0, 0, 0, 1.00);border-radius:0 0 0 0;">
-                                    Per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis
-                                    <br> dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut
-                                    <br> imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra,
-                                    <br> erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam
-                                    <br> massa nisl quis neque. Suspendisse in orci enim.
-                                </div>
-                                <div class="tp-caption tp-resizeme" id="slide-4-layer-8" data-x="140" data-y="center" data-voffset="310" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="2100" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 12; min-width: auto; min-height: auto; white-space: nowrap; max-width: auto; max-height: auto; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255, 255, 255, 1.00);padding:0 0 0 0;border-radius:0 0 0 0;">
-                                    <a class="button button_stroke_custom button_js" href="#" style=" border-color:#fff !important; color:#fff;"><span class="button_label">See the project</span></a>
-                                </div>
-                            </li>
-                        </ul>
-                        <div class="tp-bannertimer tp-bottom flv_viz_hid"></div>
-                    </div>
-                </div>
-            </div>
-        </header>
-            </div>
-
-        @yield('header')
+<body class="loading">
+<!-- Loader-->
+<div class="screen-loader">
+    <div class="loading">
+            <span class="loader_span">
+            <span class="loader_right"></span>
+            <span class="loader_left"></span>
+            </span>
     </div>
-@yield('content')
-<!-- Footer-->
-    <footer id="Footer" class="clearfix">
-        <div class="widgets_wrapper">
-            <div class="container">
-                <div class="one-third column">
-                    <!-- Text Area -->
-                    <aside class="widget widget_text">
-                        <h4>Our brand ideas</h4>
-                        <div class="textwidget">
-                            Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque.
-                        </div>
-                    </aside>
-                </div>
-                <div class="one-third column">
-                    <!-- Text Area -->
-                    <aside class="widget widget_text">
-                        <h4>You can trust us</h4>
-                        <div class="textwidget">
-                            Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet.
-                        </div>
-                    </aside>
-                </div>
-                <div class="one-third column">
-                    <!-- Text Area -->
-                    <aside class="widget widget_text">
-                        <h4>Our offer</h4>
-                        <div class="textwidget">
-                            <ul style="font-size: 100%; line-height: 21px; list-style-type: inherit; margin: 0 0 0 14px;">
-                                <li>
-                                    <a href="#">Vestibulum commodo volutpat convallis ac</a>
-                                </li>
-                                <li>
-                                    <a href="#">Quisque lorem tortor fringilla sed, vestibulum fend justo</a>
-                                </li>
-                                <li>
-                                    <a href="#">Cum sociis natoque penatibus et ultrices volutpat</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </aside>
-                </div>
-            </div>
-        </div>
-        <!-- Footer copyright-->
-        <div class="footer_copy">
-            <div class="container">
-                <div class="column one">
-                    <a id="back_to_top" href="#" class="button button_left button_js"><span class="button_icon"><i class="icon-up-open-big"></i></span></a>
-                    <div class="copyright">
-                        &copy; 2017 BeITService - BeTheme. Muffin group - HTML by <a target="_blank" rel="nofollow" href="http://bit.ly/1M6lijQ">BeantownThemes</a>
-                    </div>
-                    <!--Social info area-->
-                    <ul class="social"></ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-    @yield('footer')
+
+    <span class="loader-text shuffle">Please wait...</span>
+
+
+    <div class="sl-top"></div>
+    <div class="sl-bottom"></div>
 </div>
-<!-- JS -->
-<script src="{{asset('js/jquery-2.1.4.min.js')}}"></script>
+<div class="" data-header="sticky" data-header-top="200" data-canvas="container">
 
-<script src="{{asset('js/mfn.menu.js')}}"></script>
-<script src="{{asset('js/jquery.plugins.js')}}"></script>
-<script src="{{asset('js/jquery.jplayer.min.js')}}"></script>
-<script src="{{asset('js/animations/animations.js')}}"></script>
-<script src="{{asset('js/scripts.js')}}"></script>
-<script src="{{asset('js/email.js')}}"></script>
+    <!-- ==========================-->
+    <!-- MOBILE MENU-->
+    <!-- ==========================-->
+    <div data-off-canvas="mobile-slidebar left overlay">
 
-<script src="{{asset('plugins/rs-plugin/js/jquery.themepunch.tools.min.js')}}"></script>
-<script src="{{asset('plugins/rs-plugin/js/jquery.themepunch.revolution.min.js')}}"></script>
+        <ul class="yamm main-menu nav navbar-nav">
+            <li><a href="contact.html">Home</a></li>
+            <li><a href="typography.html">About Us</a>
+            <li><a href="services.html">Projects</a></li>
+            <li><a href="services.html">Contact Us</a></li>
 
-<script src="{{asset('plugins/rs-plugin/js/extensions/revolution.extension.video.min.js')}}"></script>
-<script src="{{asset('plugins/rs-plugin/js/extensions/revolution.extension.slideanims.min.js')}}"></script>
-<script src="{{asset('plugins/rs-plugin/js/extensions/revolution.extension.actions.min.js')}}"></script>
-<script src="{{asset('plugins/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js')}}"></script>
-<script src="{{asset('plugins/rs-plugin/js/extensions/revolution.extension.kenburn.min.js')}}"></script>
-<script src="{{asset('plugins/rs-plugin/js/extensions/revolution.extension.navigation.min.js')}}"></script>
-<script src="{{asset('plugins/rs-plugin/js/extensions/revolution.extension.migration.min.js')}}"></script>
-<script src="{{asset('plugins/rs-plugin/js/extensions/revolution.extension.parallax.min.js')}}"></script>
+        </ul>
 
-<script>
-    var tpj = jQuery;
-    tpj.noConflict();
-    var revapi1;
-    tpj(document).ready(function() {
-        if (tpj('#rev_slider_1_2').revolution == undefined) {
-            revslider_showDoubleJqueryError('#rev_slider_1_2');
-        } else {
-            revapi1 = tpj('#rev_slider_1_2').show().revolution({
-                dottedOverlay: "none",
-                delay: 5000,
-                startwidth: 1176,
-                startheight: 680,
-                hideThumbs: 200,
-                thumbWidth: 100,
-                thumbHeight: 50,
-                thumbAmount: 1,
-                simplifyAll: "off",
-                navigationType: "none",
-                navigationArrows: "none",
-                navigationStyle: "round",
-                touchenabled: "on",
-                onHoverStop: "on",
-                nextSlideOnWindowFocus: "off",
-                swipe_threshold: 75,
-                swipe_min_touches: 1,
-                drag_block_vertical: false,
-                keyboardNavigation: "off",
-                navigationHAlign: "center",
-                navigationVAlign: "bottom",
-                navigationHOffset: 0,
-                navigationVOffset: 20,
-                soloArrowLeftHalign: "left",
-                soloArrowLeftValign: "center",
-                soloArrowLeftHOffset: 20,
-                soloArrowLeftVOffset: 0,
-                soloArrowRightHalign: "right",
-                soloArrowRightValign: "center",
-                soloArrowRightHOffset: 20,
-                soloArrowRightVOffset: 0,
-                shadow: 0,
-                fullWidth: "on",
-                fullScreen: "off",
-                spinner: "spinner3",
-                stopLoop: "off",
-                stopAfterLoops: 0,
-                stopAtSlide: 1,
-                shuffle: "off",
-                autoHeight: "off",
-                forceFullWidth: "off",
-                hideTimerBar: "on",
-                hideThumbsOnMobile: "off",
-                hideNavDelayOnMobile: 1500,
-                hideBulletsOnMobile: "off",
-                hideArrowsOnMobile: "off",
-                hideThumbsUnderResolution: 0,
-                hideSliderAtLimit: 0,
-                hideCaptionAtLimit: 0,
-                hideAllCaptionAtLilmit: 0,
-                startWithSlide: 0
-            });
-        }
-    });
-    /*]]>*/
-</script>
 
-<script>
-    jQuery(window).load(function() {
-        var retina = window.devicePixelRatio > 1 ? true : false;
-        if (retina) {
-            var retinaEl = jQuery("#logo img");
-            var retinaLogoW = retinaEl.width();
-            var retinaLogoH = retinaEl.height();
-            retinaEl.attr("src", "images/retina_itservice.png").width(retinaLogoW).height(retinaLogoH)
-        }
-    });
-</script>
 
+    </div>
+    <!-- ==========================-->
+    <!-- FULL SCREEN MENU-->
+    <!-- ==========================-->
+    <div class="wrap-fixed-menu" id="fixedMenu">
+        <nav class="fullscreen-center-menu">
+
+            <div class="menu-main-menu-container">
+
+                <ul class="nav navbar-nav">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Works</a></li>
+                    <li><a href="blog-main.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+
+
+
+            </div>
+        </nav>
+        <button type="button" class="fullmenu-close"><i class="fa fa-times"></i></button>
+    </div>
+
+
+
+    <header class="header header-topbar-hidden header-boxed-width navbar-fixed-top header-background-trans header-navibox-1-left header-navibox-2-right">
+        <div class="container container-boxed-width">
+            <nav class="navbar" id="nav">
+                <div class="header-navibox-1">
+                    <!-- Mobile Trigger Start-->
+                    <button class="menu-mobile-button visible-xs-block js-toggle-mobile-slidebar toggle-menu-button"><i class="toggle-menu-button-icon"><span></span><span></span><span></span><span></span><span></span><span></span></i></button>
+                    <!-- Mobile Trigger End-->
+                    <div class="ui-decor-1 ui-decor-1_sm"></div>
+                    <a class="navbar-brand scroll" href="{{route('home')}}"><img class="normal-logo" src="assets/media/general/logo-dark.png" alt="logo" /><img class="scroll-logo hidden-xs" src="assets/media/general/logo-dark.png" alt="logo" /></a>
+                </div>
+                <div class="header-navibox-2">
+                    <ul class="yamm main-menu nav navbar-nav">
+                        <li><a href="{{route('home')}}">Home</a></li>
+                        <li class="active"><a href="{{route('project')}}">Services</a></li>
+                        <li><a href="{{route('home')}}">What we Offer</a></li>
+                        <li><a href="{{route('about')}}">About</a></li>
+                        <li><a href="{{route('contact')}}">Contact</a></li>
+                    </ul>
+                    <ul class="btn-menu">
+                        {{--<li><a class="btn_header_search" href="#"><i class="fa fa-search"></i></a></li>--}}
+                        {{--<li>--}}
+                            {{--<button class="js-toggle-screen toggle-menu-button"><i class="toggle-menu-button-icon"><span></span><span></span><span></span><span></span><span></span><span></span></i></button>--}}
+                        {{--</li>--}}
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        @yield('header')
+    </header>
+@yield('content')
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__main">
+                <div class="row">
+                    <div class="col-md-6 col-sm-4">
+                        <div class="footer-section">
+                            <div class="ui-decor-1 bg-primary"></div>
+                            <a class="footer__logo" href="home.html"><img class="img-responsive" src="assets/media/general/logo.png" alt="Logo" /></a>
+                            <div class="footer__info">
+                                <br> support@unitedagency.com
+                                <br> (+254) 736508817</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <section class="footer-section footer-section_list">
+                            <h3 class="footer-section__title">company</h3>
+                            <ul class="footer-list list-unstyled">
+                                <li class="footer-list__item"><a class="footer-list__link" href="{{route('home')}}">Home Page</a></li>
+                                <li class="footer-list__item"><a class="footer-list__link" href="{{route('about')}}">About United</a></li>
+                                <li class="footer-list__item"><a class="footer-list__link" href="{{route('home')}}">What We Offers</a></li>
+                                <li class="footer-list__item"><a class="footer-list__link" href="{{route('project')}}">The Latest Projects</a></li>
+                                <li class="footer-list__item"><a class="footer-list__link" href="{{route('contact')}}">Contact us</a></li>
+                            </ul>
+                        </section>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <section class="footer-section footer-section_form">
+                            <h3 class="footer-section__title">newsletter</h3>
+                            <div class="footer-form__info">Incididunt ut labore etad dolore magna aliqua enim tempore veniam</div>
+                            <form class="footer-form">
+                                <input class="footer-form__input" type="email" placeholder="Email address" />
+                                <button class="footer-form__btn border-b_prim text-primary_h"><i class="icon fa fa-long-arrow-right"></i></button>
+                            </form>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="copyright">Worth Group (c) <?php echo date("Y")?>. All Rights Reserved</div>
+                </div>
+            </div>
+        </div>
+        @yield('footer')
+    </footer>
+
+</div>
+    <!-- .footer-->
+<!-- end layout-theme-->
+
+
+<!-- ++++++++++++-->
+<!-- MAIN SCRIPTS-->
+<!-- ++++++++++++-->
+<script src="assets/libs/jquery-1.12.4.min.js"></script>
+<script src="assets/libs/jquery-migrate-1.2.1.js"></script>
+<!-- Bootstrap-->
+<script src="assets/libs/bootstrap/bootstrap.min.js"></script>
+<!-- Color scheme-->
+<script src="assets/plugins/switcher/js/dmss.js"></script>
+<!-- Select customization & Color scheme-->
+<script src="assets/plugins/bootstrap-select/js/bootstrap-select.min.js"></script>
+<!-- Slider-->
+<script src="assets/plugins/owl-carousel/owl.carousel.min.js"></script>
+<!-- Pop-up window-->
+<script src="assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+<!-- Headers scripts-->
+<script src="assets/plugins/headers/slidebar.js"></script>
+<script src="assets/plugins/headers/header.js"></script>
+<!-- Mail scripts-->
+<script src="assets/plugins/jqBootstrapValidation.js"></script>
+<script src="assets/plugins/contact_me.js"></script>
+<!-- Filter and sorting images-->
+<script src="assets/plugins/isotope/isotope.pkgd.min.js"></script>
+<script src="assets/plugins/isotope/imagesLoaded.js"></script>
+<!-- Progress numbers-->
+<script src="assets/plugins/rendro-easy-pie-chart/jquery.easypiechart.min.js"></script>
+<script src="assets/plugins/rendro-easy-pie-chart/waypoints.min.js"></script>
+<!-- Animations-->
+<script src="assets/plugins/scrollreveal/scrollreveal.min.js"></script>
+<script src="assets/plugins/revealer/js/anime.min.js"></script>
+<script src="assets/plugins/revealer/js/scrollMonitor.js"></script>
+<script src="assets/plugins/revealer/js/main.js"></script>
+<script src="assets/plugins/TiltHoverEffects/js/imagesloaded.pkgd.min.js"></script>
+<script src="assets/plugins/TiltHoverEffects/js/anime.min.js"></script>
+<script src="assets/plugins/TiltHoverEffects/js/main.js"></script>
+<script src="assets/plugins/animate/wow.min.js"></script>
+<script src="assets/plugins/animate/jquery.shuffleLetters.js"></script>
+<script src="assets/plugins/animate/jquery.sticky-kit.js"></script>
+<script src="assets/plugins/animate/typed.js"></script>
+<!-- User customization-->
+<script src="assets/js/custom.js"></script>
 </body>
 @yield('scripts')
 </html>
