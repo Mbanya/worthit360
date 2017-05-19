@@ -18,7 +18,7 @@ a,
 .breadcrumb > li > a:hover,
 .sp-arrow:hover,
 .header .social-links > li > a:hover {
-    color: #e0e242;
+    color: #efa96b;
 }
 
 .bg-primary,
@@ -47,7 +47,7 @@ a,
 .b-isotope-grid_mod-a .b-isotope-grid__item:hover .b-isotope-grid__wrap-info,
 .header_mod-a .navbar .main-menu > li.active:before,
 .header_mod-a .navbar .main-menu > li:hover:before {
-    background-color: #e0e242;
+    background-color: #efa96b;
 }
 
 .border_prim,
@@ -62,7 +62,7 @@ a,
 .btn-primary,
 .forms__label-radio-2:before,
 .list-tags__link:hover {
-    border-color: #e0e242;
+    border-color: #efa96b;
 }
 
 .border-t_prim,
@@ -72,7 +72,7 @@ a,
 .tooltip-1.top-right .tooltip-arrow,
 .navbar .navbar-nav > li > a:hover,
 .navbar .navbar-nav > li.active > a {
-    border-top-color: #e0e242;
+    border-top-color: #efa96b;
 }
 
 .border-r_prim,
@@ -80,7 +80,7 @@ a,
 .tooltip-1.right .tooltip-arrow,
 .b-progress-list__item,
 .b-brands-2 {
-    border-right-color: #e0e242;
+    border-right-color: #efa96b;
 }
 
 .border-b_prim,
@@ -94,7 +94,7 @@ a,
 .pagination > li > span:hover,
 .pagination > li > a:focus,
 .pagination > li > span:focus {
-    border-bottom-color: #e0e242;
+    border-bottom-color: #efa96b;
 }
 
 .border-l_prim,
@@ -103,16 +103,16 @@ a,
 .border-left_primary:before,
 .b-blockquote-1,
 .b-brands-2 {
-    border-left-color: #e0e242;
+    border-left-color: #efa96b;
 }
 
 .b-blockquote-1:before,
 .b-blockquote-post:after {
-    text-shadow: -2px -2px 0 #e0e242, -2px -1px 0 #e0e242, -2px 0px 0 #e0e242, -2px 1px 0 #e0e242, -2px 2px 0 #e0e242, -1px -2px 0 #e0e242, -1px -1px 0 #e0e242, -1px 0px 0 #e0e242, -1px 1px 0 #e0e242, -1px 2px 0 #e0e242, 0px -2px 0 #e0e242, 0px -1px 0 #e0e242, 0px 0px 0 #e0e242, 0px 1px 0 #e0e242, 0px 2px 0 #e0e242, 1px -2px 0 #e0e242, 1px -1px 0 #e0e242, 1px 0px 0 #e0e242, 1px 1px 0 #e0e242, 1px 2px 0 #e0e242, 2px -2px 0 #e0e242, 2px -1px 0 #e0e242, 2px 0px 0 #e0e242, 2px 1px 0 #e0e242, 2px 2px 0 #e0e242;
+    text-shadow: -2px -2px 0 #efa96b, -2px -1px 0 #efa96b, -2px 0px 0 #efa96b, -2px 1px 0 #efa96b, -2px 2px 0 #efa96b, -1px -2px 0 #efa96b, -1px -1px 0 #efa96b, -1px 0px 0#efa96b, -1px 1px 0 #e0e242, -1px 2px 0 #e0e242, 0px -2px 0 #e0e242, 0px -1px 0 #e0e242, 0px 0px 0 #e0e242, 0px 1px 0 #e0e242, 0px 2px 0 #e0e242, 1px -2px 0 #e0e242, 1px -1px 0 #e0e242, 1px 0px 0 #e0e242, 1px 1px 0 #e0e242, 1px 2px 0 #e0e242, 2px -2px 0 #e0e242, 2px -1px 0 #e0e242, 2px 0px 0 #e0e242, 2px 1px 0 #e0e242, 2px 2px 0 #e0e242;
 }
 
 .b-contact__icon {
-    box-shadow: 25px 15px 0 -5px #e0e242;
+    box-shadow: 25px 15px 0 -5px #efa96b;
 }
 
 .text-second,

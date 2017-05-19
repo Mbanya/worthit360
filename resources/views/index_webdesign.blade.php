@@ -87,114 +87,77 @@
                         </div>
                     </div>
 
-                    <div class="section" id="offer" style="padding-top:70px; padding-bottom:50px; background-color:#f8f8f8">
+                    <div class="flv_sections_16 section" id="chart">
                         <div class="section_wrapper clearfix">
                             <div class="items_group clearfix">
                                 <!-- One full width row-->
                                 <div class="column one column_column">
-                                    <div class="column_attr align_center">
-                                        <div class="image_frame no_link scale-with-grid aligncenter no_border">
-                                            <div class="image_wrapper"><img class="scale-with-grid" src="images/home_itservice_section_arrow.png" alt="">
-                                            </div>
+                                    <h3>Our Skills
+                                    </h3>
+                                    <hr class="no_line hrmargin_b_40" />
+                                </div>
+                                <!-- One Fourth (1/4) Column -->
+                                <div class="column one-fourth column_chart">
+                                    <div class="chart_box">
+                                        <div class="chart" data-percent="62" data-color="#efa96b">
+                                            <div class="num">
+                                                62% </div>
                                         </div>
-                                        <hr class="no_line hrmargin_b_30" />
-                                        <h2>See what we can do for your business!</h2>
+                                        <p style="font-size: 15px;">
+                                            <span>Software Development</span> </p>
                                     </div>
                                 </div>
                                 <!-- One Fourth (1/4) Column -->
-                                <div class="column one-fourth column_column">
-                                    <div class="column_attr align_center animate" data-anim-type="zoomIn">
-                                        <div style="background: #fff; padding: 35px 20px 20px;">
-                                            <div class="image_frame no_link scale-with-grid aligncenter no_border">
-                                                <div class="image_wrapper"><img class="scale-with-grid" src="images/home_itservice_service1.png" alt="">
-                                                </div>
-                                            </div>
-                                            <hr class="no_line hrmargin_b_25" />
-                                            <h4>Software Development</h4>
-                                            <p style="color: #A2A2A2;">
-                                                Our services focus on helping clients to solve complex business
-                                                issues through implementing effective technology to improve enterprise performance.
-                                                Our experience is extensive - from strategy, through design, implementation,
-                                                managed services, and upgrades.
-                                            </p>
+                                <div class="column one-fourth column_chart">
+                                    <div class="chart_box">
+                                        <div class="chart" data-percent="67" data-color="#efa96b">
+                                            <div class="num">
+                                                67% </div>
                                         </div>
+                                        <p style="font-size: 15px;">
+                                            <span>IT Technical Services</span> </p>
                                     </div>
                                 </div>
                                 <!-- One Fourth (1/4) Column -->
-                                <div class="column one-fourth column_column">
-                                    <div class="column_attr align_center animate" data-anim-type="zoomIn">
-                                        <div style="background: #fff; padding: 35px 20px 20px;">
-                                            <div class="image_frame no_link scale-with-grid aligncenter no_border">
-                                                <div class="image_wrapper"><img class="scale-with-grid" src="images/home_itservice_service2.png" alt="">
-                                                </div>
-                                            </div>
-                                            <hr class="no_line hrmargin_b_25" />
-                                            <h4>IT Technical Services</h4>
-                                            <p style="color: #A2A2A2;">
-                                                The goal of our IT Technical Services team is to remove stress and disruption
-                                                from the project. And we recognize that your business is unique, so it only makes sense
-                                                that your technology implementation is uniquely tailored to your business.
-                                            </p>
+                                <div class="column one-fourth column_chart">
+                                    <div class="chart_box">
+                                        <div class="chart" data-percent="94" data-color="#efa96b">
+                                            <div class="num">
+                                                94% </div>
                                         </div>
+                                        <p style="font-size: 15px;">
+                                            <span class="big">Software Installation</span> </p>
                                     </div>
                                 </div>
                                 <!-- One Fourth (1/4) Column -->
-                                <div class="column one-fourth column_column">
-                                    <div class="column_attr align_center animate" data-anim-type="zoomIn">
-                                        <div style="background: #fff; padding: 35px 20px 20px;">
-                                            <div class="image_frame no_link scale-with-grid aligncenter no_border">
-                                                <div class="image_wrapper"><img class="scale-with-grid" src="images/home_itservice_service3.png" alt="">
-                                                </div>
-                                            </div>
-                                            <hr class="no_line hrmargin_b_25" />
-                                            <h4>Software Installation</h4>
-                                            <p style="color: #A2A2A2;">
-                                                We help you find the best hardware and software solutions for your business
-                                                whereby we work with you to evaluate your current systems to make sure we can get<br>
-                                                the best value out of your existing investments.
-
-                                            </p>
+                                <div class="column one-fourth column_chart">
+                                    <div class="chart_box">
+                                        <div class="chart" data-percent="100" data-color="#efa96b">
+                                            <div class="num">
+                                                100% </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <!-- One Fourth (1/4) Column -->
-                                <div class="column one-fourth column_column">
-                                    <div class="column_attr align_center animate" data-anim-type="zoomIn">
-                                        <div style="background: #fff; padding: 35px 20px 20px;">
-                                            <div class="image_frame no_link scale-with-grid aligncenter no_border">
-                                                <div class="image_wrapper"><img class="scale-with-grid" src="images/home_itservice_service4.png" alt="">
-                                                </div>
-                                            </div>
-                                            <hr class="no_line hrmargin_b_25" />
-                                            <h4>Website Devlopment</h4>
-                                            <p style="color: #A2A2A2;">
-                                                Website Development is the use of
-                                                Art and technical knowledge to meet specific
-                                                requirements.<br>
-                                                We use superior web technologies to build the
-                                                solution aimed at providing an enabling digital
-                                                platform to grow your business.
-                                            </p>
-                                        </div>
+                                        <p style="font-size: 15px;">
+                                            <span class="big">Website Devlopment</span>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="section dark " id="testimonials" style="padding-top:90px; padding-bottom:30px; background-color:#37ac50;">
+                    <div class="section dark " id="testimonials" style="padding-top:90px; padding-bottom:30px; background-color:#efa96b;">
                         <div class="section_wrapper clearfix">
                             <div class="items_group clearfix">
                                 <!-- One full width row-->
                                 <div class="column one column_column">
                                     <div class="column_attr align_center">
                                         <div class="image_frame no_link scale-with-grid aligncenter no_border">
-                                            <div class="image_wrapper"><img class="scale-with-grid" src="images/home_itservice_quote.png" alt="">
+                                            <div class="image_wrapper"><img class="scale-with-grid" src="images/blockquote.png" alt="">
                                             </div>
                                         </div>
                                         <hr class="no_line hrmargin_b_30" />
-                                        <h2 style="margin: 0 7%; line-height: 120%; font-style: italic;">Never before in history has innovation offered promise of so much to so many in so short a time</h2>
+                                        <h2 style="margin: 0 7%; line-height: 120%; font-style: italic; ">Never before in history has innovation offered promise of so much to so many in so short a time</h2>
                                         <hr class="no_line hrmargin_b_30" />
-                                        <h4 style="color: #218136; font-weight: 700;">- Bill Gates</h4>
+                                        <h4 style=" font-weight: 700;">- Bill Gates</h4>
                                     </div>
                                 </div>
                             </div>
@@ -224,13 +187,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="section dark " style="padding-top:90px; padding-bottom:30px; background-color:#37ac50">
+                    <div class="section dark " style="padding-top:90px; padding-bottom:30px; background-color:#efa96b">
                         <div class="section_wrapper clearfix">
                             <div class="items_group clearfix">
                                 <!-- One full width row-->
                                 <div class="column one column_column">
                                     <div class="column_attr align_center">
-                                        <h2 style="display: inline-block; margin-right: 35px; position: relative; top: -26px;">Call for help now! <strong>+254 736508817</strong></h2><a class="button button_large button_stroke_custom button_js" href="#" style=" border-color:#fff !important; color:#fff;"><span class="button_label">Contact us</span></a>
+                                        <h2 style="display: inline-block; margin-right: 35px; position: relative; top: -26px;">Call us for assistance! <strong>+254 736508817</strong></h2><a class="button button_large button_stroke_custom button_js" href="#" style=" border-color:#000 !important; color:#000;"><span class="button_label">Contact us</span></a>
                                     </div>
                                 </div>
                             </div>
@@ -267,7 +230,7 @@
                         <div style="margin-top: 33px;">
                             <form id="newsletterform" class="newsletter_form">
                                 <input placeholder="Your email address" type="email" id="email_news" name="email_news" size="40" aria-required="true" aria-invalid="false" />
-                                <input type="button" value="Sign up" id="submit" onClick="return check_values_news();">
+                                <input type="button" value="Sign up"id="submit" onClick="return check_values_news();">
                             </form>
                         </div>
                     </div>

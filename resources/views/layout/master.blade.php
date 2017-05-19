@@ -10,11 +10,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta content="telephone=no" name="format-detection" />
     <meta name="HandheldFriendly" content="true" />
-    <link rel="stylesheet" href="assets/css/master.css" />
-    <!-- SWITCHER-->
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="{{asset('assets/css/master.css')}}" />
+
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="content/webdesign/images/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/developer-icon-152-279030.png">
+
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/developer-icon-144-279030.png">
+
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/developer-icon-120-279030.png">
+
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/developer-icon-114-279030.png">
+
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/developer-icon-72-279030.png">
+
+    <link rel="apple-touch-icon-precomposed" href="/developer-icon-57-279030.png">
+
+    <link rel="icon" href="/developer-icon-32-279030.png" sizes="32x32">
     <!--[if lt IE 9 ]>
-    <script src="/assets/js/separate-js/html5shiv-3.7.2.min.js" type="text/javascript"></script><meta content="no" http-equiv="imagetoolbar">
+    <script src="assets/js/separate-js/html5shiv-3.7.2.min.js" type="text/javascript"></script><meta content="no" http-equiv="imagetoolbar">
     <![endif]-->
     @yield('assets')
 </head>

@@ -139,7 +139,7 @@ function sendRequest_news() {
 	}
 	finally{
 	jQuery('#newsletterform').slideUp("slow").hide();
-	jQuery('#newsletterform').parent().append('<div class="success"><h4>Subscription Successfully Sent!</h4><br><p>Your email: '+email+' has been registered.</p></div>');
+	jQuery('#newsletterform').parent().append('<div class="success"><h4 style="color: #FFFFFF" >Subscription Successfully Sent!</h4 style="color: #FFFFFF" ><br><p>Your email: '+email+' has been registered.</p></div>');
 	
 	}
 }
@@ -606,7 +606,7 @@ function check_values_news() {
 	 if($j('#newsletterform #name_news').val()=='') {
 	 	var hasClass=$j('#newsletterform #name_news').parent().find(".error").hasClass("error");
 	 	if(!hasClass)
-	 	    $j('#newsletterform #name_news').parent().append('<label for="contactname" generated="true" class="error">Please enter your name</label>');
+	 	    $j('#newsletterform #name_news').parent().append('<label for="contactname" generated="true" style="color: #FFFFFF"  class="error">Please enter your name</label>');
 			$j('#newsletterform #name_news').focus();
 			//return false;
 			errors++;
@@ -618,7 +618,7 @@ function check_values_news() {
 		if(validate_email($j('#newsletterform #email_news').val())==false ) {
 		var hasClass=$j('#newsletterform #email_news').parent().find(".error").hasClass("error");
 	 	if(!hasClass)
-	 	    $j('#newsletterform #email_news').parent().append('<label for="contactname" generated="true" class="error">Please enter a valid email address</label>');	
+	 	    $j('#newsletterform #email_news').parent().append('<label for="contactname" style="color: #FFFFFF" generated="true" class="error">Please enter a valid email address</label>');
 			$j('#newsletterform #email_news').focus();
 			//return false;
 			errors++;
