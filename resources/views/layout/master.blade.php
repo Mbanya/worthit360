@@ -133,7 +133,7 @@
                             <div class="ui-decor-1 bg-primary"></div>
                             <a class="footer__logo" href="home.html"><img class="img-responsive" src="assets/media/general/logo.png" alt="Logo" /></a>
                             <div class="footer__info">
-                                <br> support@unitedagency.com
+                                <br> info@worthafrica.org
                                 <br> (+254) 736508817</div>
                         </div>
                     </div>
@@ -152,7 +152,7 @@
                     <div class="col-md-3 col-sm-4">
                         <section class="footer-section footer-section_form">
                             <h3 class="footer-section__title">newsletter</h3>
-                            <div class="footer-form__info">Incididunt ut labore etad dolore magna aliqua enim tempore veniam</div>
+                            <div class="footer-form__info">Subscribe to get the latest news about our services</div>
                             <form class="footer-form">
                                 <input class="footer-form__input" type="email" placeholder="Email address" />
                                 <button class="footer-form__btn border-b_prim text-primary_h"><i class="icon fa fa-long-arrow-right"></i></button>
